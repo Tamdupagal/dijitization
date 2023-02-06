@@ -53,12 +53,12 @@ const Navbar = () => {
         id="home"
       >
         <h2 className="text-[25px] font-bold cursor-pointer flex items-center text-logotext">
-          <Image
+          {/*   <Image
             src={"/assets/logo.png"}
             alt={"this is logo"}
             width={50}
             height={50}
-          />
+          /> */}
           <p>Dijitization</p>
         </h2>
 
