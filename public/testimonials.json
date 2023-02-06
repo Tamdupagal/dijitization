@@ -1,0 +1,33 @@
+[
+    {
+        "_id": 101,
+        "name": "Cameron Williamson",
+        "review": "This is one of the best dentist offices I’ve been to. The staff are super friendly and the doctors are professionla and friendly as well.",
+        "ratings": 5,
+        "img": "/assets/user1.png"
+    },
+    {
+        "_id": 102,
+        "name": "Jane Cooper",
+        "review": "It's impressed me on multiple levels. Thank you for making it painless, pleasant and most of all hassle free! I'd be lost without It.",
+        "ratings": 5,
+        "img": "/assets/user1.png"
+    },
+    {
+        "_id": 103,
+        "name": "Cameron Williamson",
+        "review": "This is one of the best dentist offices I’ve been to. The staff are super friendly and the doctors are professionla and friendly as well.",
+        "ratings": 5,
+        "img": "/assets/user1.png"
+    },
+    {
+        "_id": 104,
+        "name": "Jane Cooper",
+        "review": "This is one of the best dentist offices I’ve been to. The staff are super friendly and the doctors are professionla and friendly as well.",
+        "ratings": 5,
+        "img": "/assets/user1.png"
+    }
+]
+                         
+
+   
