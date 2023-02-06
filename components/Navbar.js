@@ -49,7 +49,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="bg-[#f4f7f2] dark:bg-black dark:text-white flex items-center justify-between py-2 lg:px-20 px-8 fixed w-full z-[9]"
+        className="bg-[#f4f7f2] dark:bg-black dark:text-white flex items-center justify-between py-4 lg:px-20 px-8 fixed w-full z-[9]"
         id="home"
       >
         <h2 className="text-[25px] font-bold cursor-pointer flex items-center text-logotext">
@@ -66,9 +66,9 @@ const Navbar = () => {
           {menuItems}
         </ul>
 
-        <div className="flex">
+        <div className="flex ">
           <button
-            className="p-2.5 text-[20px] text-[#606060] px-3 mx-2 rounded-md bg-blue dark:text-white lg:block hidden"
+            className="p-2.5 text-[20px]  text-[#606060] px-3 mx-2 rounded-md bg-blue dark:text-white"
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
           >
             {theme === "light" ? <BsFillMoonFill /> : <BsFillSunFill />}
@@ -93,24 +93,14 @@ const Navbar = () => {
         <div className="bg-[#f4f7f2] text-logotext rounded w-full   py-12 z-100 fixed pt-32 text-center">
           <ul className=" lg:hidden flex flex-col items-start gap-5 text-center ">
             {menuItems}
-            <div>
-              <button
-                className="p-2.5 text-[20px] text-[#606060] px-3 mx-2 rounded-md bg-blue dark:bg-white lg:block hidden"
-                onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-              >
-                {theme === <BsFillSunFill /> ? (
-                  <BsFillMoonFill />
-                ) : (
-                  <BsFillSunFill />
-                )}
-              </button>
+<li>
               <button
                 href="/"
                 className="bg-logotext w-full px-4 py-2 rounded-xl text-white hover:bg-[#666A7B] hover:text-white"
               >
                 Get Started
               </button>
-            </div>
+              </li>
           </ul>
         </div>
       ) : (

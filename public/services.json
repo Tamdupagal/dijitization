@@ -7,15 +7,32 @@
     },
     {
         "_id": 2,
-        "name": "Patching",
+        "name": "EnterPrice",
         "desc": "Zygomatic implants are intended to replace teeth in the upper jaw.",
         "icon": "TbPremiumRights"
     },
     {
         "_id": 3,
-        "name": "Bletching",
+        "name": "EnterPrice",
         "desc": "A method of professional oral care that focuses on improving the appearance of your teeth.",
         "icon": "TbPremiumRights"
+    },
+    {
+        "_id": 4,
+        "name": "EnterPrice",
+        "desc": "To repair the nerve of the tooth that is infected or badly damaged.",
+        "icon": ""
+    },
+    {
+        "_id": 5,
+        "name": "EnterPrice",
+        "desc": "Corrects irregularities of the jaw bones and realigns the jaws and teeth to improve the way they work.",
+        "icon": ""
+    },
+    {
+        "_id": 6,
+        "name": "Extraction",
+        "desc": "Plastic surgery performed on the nose to straighten the nose.",
+        "icon": ""
     }
-  
 ]

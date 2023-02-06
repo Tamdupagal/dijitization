@@ -5,6 +5,8 @@ import Testimonial from "./Testimonial";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
+import "swiper/css/pagination";
+
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -44,6 +46,9 @@ const Testimonials = () => {
             delay: 3000,
             disableOnInteraction: true,
           }}
+          pagination={{
+            clickable: true,
+          }}
           slidesPerView={2}
           slidesPerGroup={1}
           breakpoints={{
@@ -63,7 +68,7 @@ const Testimonials = () => {
               spaceBetween: 50,
             },
           }}
-          modules={[Autoplay]}
+          modules={[Autoplay, Navigation, Pagination]}
           className="mySwiper "
         >
           {testimonials.map((testimonial) => (
