@@ -11,7 +11,7 @@ const Service = ({ service }) => {
         <h3 className="text-2xl font-semibold">{name}</h3>
       </div>
 
-      <p className="text-[#666A7B] mt-7">{desc}</p>
+      <p className=" mt-7">{desc}</p>
     </div>
   );
 };

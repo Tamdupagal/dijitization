@@ -28,8 +28,8 @@ const Testimonials = () => {
     >
       <div className="text-center">
         <h2 className="text-5xl leading-[68px] font-semibold pt-8">
-          Find out what{" "}
-          <span className="text-logotext">customers are saying</span>
+          How can Digitization{" "}
+          <span className="text-logotext">help anyone grow?</span>
         </h2>
 
         <p className="mt-4 text-[#666A7B]">

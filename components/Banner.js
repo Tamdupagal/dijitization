@@ -17,7 +17,7 @@ const Banner = () => {
           </span>
         </h2>
         <p className="mt-8 text-md">
-          Dijitzation is a cutting-edge platform designed to help organizations
+          Dijitzation is a cutting-edge platform designed to help anyone
           streamline and optimize their digital processes.<br/> Whether you're an SMB
           or a large enterprise,
           <br /> Dijitzation can help you achieve your digital goals.

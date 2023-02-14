@@ -1,38 +1,38 @@
 [
     {
         "_id": 1,
-        "name": "Scaling",
-        "desc": "Scaling and root planning, also know as conventional periodontal therapy.",
+        "name": "Step by Step Guide",
+        "desc": "Digital adoption platforms provide an easy-to-follow guide that helps users navigate complex software and applications. This ensures that users get the most out of their technology investment.",
         "icon": "TbPremiumRights"
     },
     {
         "_id": 2,
-        "name": "EnterPrice",
-        "desc": "Zygomatic implants are intended to replace teeth in the upper jaw.",
+        "name": "Tooltips & Hints:",
+        "desc": "Tooltips and hints make it easy for users to understand how to perform specific tasks. They can be customized to match the look and feel of the application.",
         "icon": "TbPremiumRights"
     },
     {
         "_id": 3,
-        "name": "EnterPrice",
-        "desc": "A method of professional oral care that focuses on improving the appearance of your teeth.",
+        "name": "Contextual Cues",
+        "desc": "Digital adoption platforms can provide cues that are specific to the user's context. This can include information about what the user is currently working on, or tips about how to perform a task more efficiently.",
         "icon": "TbPremiumRights"
     },
     {
         "_id": 4,
-        "name": "EnterPrice",
-        "desc": "To repair the nerve of the tooth that is infected or badly damaged.",
-        "icon": ""
+        "name": "User Engagement",
+        "desc": "The step-by-step guides and tooltips provided by digital adoption platforms help to keep users engaged. This leads to higher user satisfaction and better adoption rates.",
+        "icon": "FaGuilded"
     },
     {
         "_id": 5,
-        "name": "EnterPrice",
-        "desc": "Corrects irregularities of the jaw bones and realigns the jaws and teeth to improve the way they work.",
-        "icon": ""
+        "name": "Improved Onboarding:",
+        "desc": " A digital adoption platform can streamline the onboarding process by providing new users with an intuitive and straightforward guide to the software or application.",
+        "icon": "FaGuilded"
     },
     {
         "_id": 6,
-        "name": "Extraction",
-        "desc": "Plastic surgery performed on the nose to straighten the nose.",
-        "icon": ""
+        "name": "Increased Productivity",
+        "desc": "By providing users with the tools and information they need to work efficiently, digital adoption platforms can help to increase productivity and improve user performance. This leads to better business results and increased revenue for organizations.",
+        "icon": "FaGuilded"
     }
 ]
