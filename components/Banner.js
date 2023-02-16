@@ -2,8 +2,9 @@ import Image from "next/image";
 import React from "react";
 import banner1 from "/public/assets/dash3.png";
 import banner2 from "/public/assets/dash2.png";
-import banner3 from "/public/assets/dash3.png";
+// import banner3 from "/public/assets/dash3.png";
 import banner4 from "/public/assets/dash4.png";
+          // <Image src={banner4} alt="banner img" width={400} height={300} />
 
 const Banner = () => {
   return (
@@ -31,9 +32,7 @@ const Banner = () => {
         <div className="flex gap-5 flex-col lg:flex-row">
           <div className="flex flex-col items-center gap-5 h-full ">
             <Image src={banner2} alt="banner img" width={400} height={300} />
-            <Image src={banner3} alt="banner img" width={400} height={300} />
           </div>
-          <Image src={banner4} alt="banner img" width={400} height={300} />
         </div>
       </div>
     </div>

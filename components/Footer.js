@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React,{useState} from "react";
 import {
   AiFillTwitterCircle,
   AiOutlineInstagram,
@@ -19,8 +19,51 @@ import {
   FaLinkedinIn,
   FaPinterestP,
 } from "react-icons/fa";
+import { useRouter } from "next/router";
 
-const Footer = () => {
+const Footer = () =>
+{
+  
+  // const [ firstName, setFirstName ] = useState( "" );
+  // const [ lastName, setLastName ] = useState( "" );
+  // const [ WorkEmail, setWorkEmail ] = useState( "" );
+  // const [ CompanyName, setCompanyName ] = useState( "" );
+
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    workEmail: "",
+    companyName: "",
+  } );
+  
+    const router = useRouter();
+
+    const handleSubmit = async (event) => {
+      event.preventDefault();
+
+      const response = await fetch("http://localhost:8000/registration", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+      
+      console.log( data );
+          if (response.ok) {
+            router.push("/thankyou");
+          }
+
+    };
+
+    const handleInputChange = (event) => {
+      const { name, value } = event.target;
+      setFormData( { ...formData, [ name ]: value } );
+  };
+  
+
   return (
     <div className="bg-[fafafa] p-10 px-6 lg:px-20 dark:bg-black dark:text-white">
       <div className="flex lg:flex-row flex-col justify-between gap-10  px-2">
@@ -31,8 +74,7 @@ const Footer = () => {
               Our mission is to simplify digital transformation, one step at a
               time. <br />
               We believe that every organization has the potential to unlock the
-              power of digital processes,
-              and we're here to help you get there.
+              power of digital processes, and we're here to help you get there.
             </p>
           </div>
 
@@ -86,13 +128,12 @@ const Footer = () => {
             <h2 className="text-2xl font-bold ">Address</h2>
             <p className="mt-3  ">
               {" "}
-              79 V Mall, Western Express Hwy, Thakur Complex, Kandivali
-              East, Mumbai, MH 400101, India.
+              79 V Mall, Western Express Hwy, Thakur Complex, Kandivali East,
+              Mumbai, MH 400101, India.
             </p>
           </div>
-         <p className="text-2xl font-bold" >Social Media</p>
+          <p className="text-2xl font-bold">Social Media</p>
           <div className="flex items-center  gap-3 text-white">
-           
             <div className="text-2xl  bg-blue-500 hover:bg-tomato  icon-bg w-10 h-10 rounded-full flex items-center justify-center mb-3 ">
               <span>
                 <Link href={"#"}>
@@ -140,31 +181,48 @@ const Footer = () => {
           <p className=" py-2 text-lg text-white">
             Add your info below and we'll reach out to schedule a product demo.
           </p>
-          <div className="py-3 gap-3 flex flex-col">
-            <input
-              type="name"
-              placeholder="FirstName"
-              className="  rounded-xl py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border"
-            />
-            <input
-              type="email"
-              placeholder="Lastname"
-              className="rounded-xl py-3 px-4 w-full bg-secondary dark:bg-[#151515]  border-white border"
-            />
-            <input
-              type="name"
-              placeholder="CompanyName"
-              className="rounded-xl py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border"
-            />
-            <input
-              type="email"
-              placeholder="WorkEmail"
-              className="rounded-xl py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border text-white"
-            />
-            <button className="px-2 py-3 hover:bg-[#666A7B] hover:text-white rounded-xl w-full bg-logotext text-white ">
-              Get Started
-            </button>
-          </div>
+          <form onSubmit={handleSubmit}>
+            <div className="py-3 gap-3 flex flex-col">
+              <input
+                type="name"
+                placeholder="FirstName"
+                value={formData.firstName}
+                onChange={handleInputChange}
+                name="firstName"
+                className="  rounded-xl py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border"
+              />
+              <input
+                type="text"
+                placeholder="Lastname"
+                value={formData.lastName}
+                onChange={handleInputChange}
+                name="lastName"
+                className="rounded-xl py-3 px-4 w-full bg-secondary dark:bg-[#151515]  border-white border"
+              />
+              <input
+                type="name"
+                placeholder="CompanyName"
+                value={formData.companyName}
+                name="companyName"
+                onChange={handleInputChange}
+                className="rounded-xl py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border"
+              />
+              <input
+                type="email"
+                placeholder="WorkEmail"
+                value={formData.workEmail}
+                name="workEmail"
+                onChange={handleInputChange}
+                className="rounded-xl py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border text-white"
+              />
+              <button
+                type="submit"
+                className="px-2 py-3 hover:bg-[#666A7B] hover:text-white rounded-xl w-full bg-logotext text-white "
+              >
+                Get Started
+              </button>
+            </div>
+          </form>
         </div>
       </div>
       <hr className="my-8 border-1" />
