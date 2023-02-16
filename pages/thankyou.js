@@ -1,12 +1,16 @@
-import ThankYouPage from '@/components/ThankYou'
-import React from 'react'
+import ThankYouPage from "@/components/ThankYou";
+import React from "react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const thankyou = () => {
   return (
     <div>
-      <ThankYouPage/>
+      <Navbar />
+      <ThankYouPage />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default thankyou
+export default thankyou;
