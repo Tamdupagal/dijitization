@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React,{useState} from "react";
+import React, { useState } from "react";
 import {
   AiFillTwitterCircle,
   AiOutlineInstagram,
@@ -21,9 +21,7 @@ import {
 } from "react-icons/fa";
 import { useRouter } from "next/router";
 
-const Footer = () =>
-{
-  
+const Footer = () => {
   // const [ firstName, setFirstName ] = useState( "" );
   // const [ lastName, setLastName ] = useState( "" );
   // const [ WorkEmail, setWorkEmail ] = useState( "" );
@@ -34,35 +32,36 @@ const Footer = () =>
     lastName: "",
     workEmail: "",
     companyName: "",
-  } );
-  
-    const router = useRouter();
+  });
 
-    const handleSubmit = async (event) => {
-      event.preventDefault();
+  const router = useRouter();
 
-      const response = await fetch("http://localhost:8000/registration", {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const response = await fetch(
+      "https://backend.dijitization.com/registration",
+      {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
-      });
+      }
+    );
 
-      const data = await response.json();
-      
-      console.log( data );
-          if (response.ok) {
-            router.push("/thankyou");
-          }
+    const data = await response.json();
 
-    };
-
-    const handleInputChange = (event) => {
-      const { name, value } = event.target;
-      setFormData( { ...formData, [ name ]: value } );
+    console.log(data);
+    if (response.ok) {
+      router.push("/thankyou");
+    }
   };
-  
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({ ...formData, [name]: value });
+  };
 
   return (
     <div className="bg-[fafafa] p-10 px-6 lg:px-20 dark:bg-black dark:text-white">
