@@ -255,7 +255,7 @@ const MonthlyPlan = () => {
       </div>
 
       <div className="card-border price_card p-8 bg-white dark:bg-[#151515]  rounded-xl text-left text-fontclr">
-        <h2 className="text-2xl font-semibold ">Entreprise</h2>
+        <h2 className="text-2xl font-semibold ">Enterprise</h2>
         <h3 className="text-5xl text-tomato font-bold my-2">$89</h3>
 
         <div className="mt-5">
