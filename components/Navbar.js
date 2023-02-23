@@ -74,7 +74,7 @@ const Navbar = () => {
             {theme === "light" ? <BsFillMoonFill /> : <BsFillSunFill />}
           </button>
           <button
-            href="/"
+            href="https://dashboard.dijitization.com/"
             className="bg-logotext text-white px-6 py-3 rounded-xl lg:block hidden hover:bg-[#666A7B] hover:text-white"
           >
             Get Started
@@ -93,14 +93,14 @@ const Navbar = () => {
         <div className="bg-[#f4f7f2] text-logotext rounded w-full   py-12 z-100 fixed pt-32 text-center">
           <ul className=" lg:hidden flex flex-col items-start gap-5 text-center ">
             {menuItems}
-<li>
+            <li>
               <button
                 href="/"
                 className="bg-logotext w-full px-4 py-2 rounded-xl text-white hover:bg-[#666A7B] hover:text-white"
               >
                 Get Started
               </button>
-              </li>
+            </li>
           </ul>
         </div>
       ) : (

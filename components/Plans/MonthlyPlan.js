@@ -1,41 +1,123 @@
 import React from "react";
 import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
+import { GoPrimitiveDot } from "react-icons/go";
 
 const MonthlyPlan = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10 capitalize">
       <div className="card-border bg-white dark:bg-[#151515] price_card p-8  rounded-xl text-left text-fontclr">
-        <h2 className="text-2xl font-semibold  ">Basic Plan</h2>
+        <h2 className="text-2xl font-semibold  ">Start Up Plan</h2>
         <h3 className="text-5xl font-bold my-2">$24</h3>
 
         <div className="mt-5">
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Audits</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-start mb-0.5">
+            <h2 className="text-xl font-semibold">INCLUDES</h2>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Management</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">In-app guidance</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Copywriting</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">10 user</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Link Building</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">Applications</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Site Migration</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">Smart Context</p>
+            </div>
+            <div>
+              <AiOutlineClose className="text-2xl text-red-600" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Video Camplaigns</p>
-            <AiOutlineClose className="text-2xl text-red-600" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">Chat Management</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Unlimited SEO Keywords</p>
-            <AiOutlineClose className="text-2xl text-red-600" />
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Task Management</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Surveys</p>
+            </div>
+            <div>
+              <AiOutlineClose className="text-2xl text-red-600" />
+            </div>
+          </div>
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">User Analytics</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Guidance Analytics</p>
+            </div>
+            <div>
+              <AiOutlineClose className="text-2xl text-red-600" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">
+                Content Life Cycle Management
+              </p>
+            </div>
+            <div>
+              <AiOutlineClose className="text-2xl text-red-600" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">SSO</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
         </div>
 
@@ -45,37 +127,125 @@ const MonthlyPlan = () => {
       </div>
 
       <div className="card-border price_card p-8 bg-white dark:bg-[#151515]  rounded-xl text-left text-fontclr">
-        <h2 className="text-2xl font-semibold ">Standard Plan</h2>
+        <div>
+          <h2 className="text-2xl font-semibold ">
+            Growth{" "}
+            <span className="rounded-3xl border-2 text-base  float-right px-5  uppercase">
+              Popular
+            </span>
+          </h2>
+        </div>
         <h3 className="text-5xl text-tomato font-bold my-2">$59</h3>
 
         <div className="mt-5">
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Audits</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-start mb-0.5">
+            <h2 className="text-xl font-semibold">INCLUDES</h2>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Management</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">In-app guidance</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Copywriting</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">40 user</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Link Building</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">4 Applications</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Site Migration</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">Smart Context</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />{" "}
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Video Camplaigns</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">Chat Management</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Unlimited SEO Keywords</p>
-            <AiOutlineClose className="text-2xl text-red-600" />
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Task Management</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Surveys</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">User Analytics</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Guidance Analytics</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">
+                Content Life Cycle Management
+              </p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">SSO</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
         </div>
 
@@ -85,37 +255,118 @@ const MonthlyPlan = () => {
       </div>
 
       <div className="card-border price_card p-8 bg-white dark:bg-[#151515]  rounded-xl text-left text-fontclr">
-        <h2 className="text-2xl font-semibold ">Premium Plan</h2>
+        <h2 className="text-2xl font-semibold ">Entreprise</h2>
         <h3 className="text-5xl text-tomato font-bold my-2">$89</h3>
 
         <div className="mt-5">
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Audits</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-start mb-0.5">
+            <h2 className="text-xl font-semibold">INCLUDES</h2>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Management</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">In-app guidance</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">SEO Copywriting</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">50 user</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Link Building</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">5 Applications</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Site Migration</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">Smart Context</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Video Camplaigns</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold ">Chat Management</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-semibold">Unlimited SEO Keywords</p>
-            <AiOutlineCheck className="text-2xl text-green-700" />
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Task Management</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Surveys</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">User Analytics</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">Guidance Analytics</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">
+                Content Life Cycle Management
+              </p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between mb-0.5">
+            <div className="flex items-center justify-start mb-0.5">
+              <GoPrimitiveDot />
+              <p className="text-lg font-semibold">SSO</p>
+            </div>
+            <div>
+              <AiOutlineCheck className="text-2xl text-green-700" />
+            </div>
           </div>
         </div>
 
