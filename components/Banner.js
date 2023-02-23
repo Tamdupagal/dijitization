@@ -17,7 +17,7 @@ const Banner = () => {
             The Ultimate Digital Adoption Platform
           </span>
         </h2>
-        <p className="mt-8 text-md">
+        <p className="mt-8 text-md font-semibold">
           Dijitzation is a cutting-edge platform designed to help anyone
           streamline and optimize their digital processes.<br/> Whether you're an SMB
           or a large enterprise,

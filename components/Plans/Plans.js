@@ -18,13 +18,13 @@ const Plans = () => {
     // console.log(monthly)
 
     return (
-      <div className="text-fontclr  px-5 lg:px-24 dark:bg-black dark:text-white">
-        <div className="text-center  py-12 container">
+      <div className="text-fontclr  px-5 lg:px-24 pt-5 dark:bg-black dark:text-white">
+        <div className="text-center   container">
           <h2 className="text-5xl leading-[68px] font-semibold pt-8">
             Pricing <span className="text-logotext"> plans</span>
           </h2>
 
-          <h2 className="text-3xl lg:text-2xl font-semibold">
+          <h2 className="text-base lg:text-base py-3 font-semibold">
             The Best Solutions For Our Clients
           </h2>
 

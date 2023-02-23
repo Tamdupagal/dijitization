@@ -25,7 +25,7 @@ const Legacy = () => {
               About <span className="text-logotext"> us</span>
             </h2>
           </h2>
-          <p className="py-4 lg:text-4xl capitalize font-400 text-center text-2xl  ">
+          <p className="py-4 lg:text-2xl capitalize font-400 text-center text-2xl  ">
             the digital transformation partner of choice for organizations
             everywhere!
           </p>
@@ -65,30 +65,32 @@ const Legacy = () => {
             />
             <p className="mt-4  text-xl leading-relaxed	">
               {" "}
-              <b>Mission</b>
+              <b className="text-[#3742fa]">Mission</b>
               <br />
               Our mission is to simplify digital transformation, one step at a
               time. We believe that every organization has the potential to
               unlock the power of digital processes, and we're here to help you
               get there. With Dijitzation, you'll enjoy a seamless digital
               journey that's both engaging and empowering.
-              <br /> <b>Vision</b> <br /> Our vision is a world wher e digital
-              transformation is effortless and enjoyable for organizations
-              everywhere. We see a future where the barriers to digital success
-              are lifted, and organizations of all sizes can harness the power
-              of digital processes to drive growth, innovation, and success.
+              <br /> <b className="text-[#3742fa]">Vision</b> <br /> Our vision
+              is a world wher e digital transformation is effortless and
+              enjoyable for organizations everywhere. We see a future where the
+              barriers to digital success are lifted, and organizations of all
+              sizes can harness the power of digital processes to drive growth,
+              innovation, and success.
             </p>
           </div>
 
           <div className="flex lg:flex-row flex-col gap-10 py-10">
             <p className="mt-1 text-xl leading-relaxed	">
               {" "}
-              In the words of <b>Founder & CEO-Mallikarjun Reddy</b>: "At
-              Dijitzation, we're on a mission to make digital transformation as
-              smooth as possible where user journey is merrymaking & embraced.
-              Our innovative Digital Adoption Platform is designed to guide
-              organizations on their journey, providing step-by-step guidance,
-              interactive tutorials, and AI-powered analytics to help
+              In the words of{" "}
+              <b className="text-[#3742fa]">Founder & CEO-Mallikarjun Reddy</b>:
+              "At Dijitzation, we're on a mission to make digital transformation
+              as smooth as possible where user journey is merrymaking &
+              embraced. Our innovative Digital Adoption Platform is designed to
+              guide organizations on their journey, providing step-by-step
+              guidance, interactive tutorials, and AI-powered analytics to help
               organizations fully embrace the digital age. Join us as we
               revolutionize the way organizations approach digital
               transformation."

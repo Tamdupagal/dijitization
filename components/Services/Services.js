@@ -11,7 +11,7 @@ const Services = () => {
 
     return (
       <div
-        className=" bg-[#fafafa] px-6 lg:px-20 py-20 dark:bg-black dark:text-white"
+        className=" bg-[#fafafa] px-6 lg:px-20 py-5 dark:bg-black dark:text-white"
         id="services"
       >
         <div className="text-center">
@@ -19,7 +19,7 @@ const Services = () => {
             Product <span className="text-logotext"> features</span>
           </h2>
 
-          <p className="mt-4">
+          <p className="mt-4 text-base font-semibold">
             Streamline onboarding for new employees with step-by-step guides and
             tutorials Provide in-app guidance and <br />
             support to help employees learn and use digital tools and systems

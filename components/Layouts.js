@@ -8,6 +8,7 @@ import Plans from "./Plans/Plans";
 import Services from "./Services/Services";
 import Testimonials from "./Testimonials/Testimonials";
 import Trust from "./Trust";
+import Products from "./Product/Products";
 
 const Layouts = () => {
   return (
@@ -18,7 +19,7 @@ const Layouts = () => {
       <Services />
       <Plans />
       <Legacy />
-      <Testimonials />
+      <Products />
       <Trust />
       <Footer />
     </div>

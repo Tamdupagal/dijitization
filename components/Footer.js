@@ -227,7 +227,13 @@ const Footer = () => {
       <hr className="my-8 border-1" />
 
       <div className="text-center text-lg font-semibold">
-        <p>&copy; 2023 Dijitization All Rights Reserved.</p>
+        <p>
+          &copy; 2023 Dijitization All Rights Reserved. Powered By{" "}
+          <Link href={"https://digitalaidedschool.com"}>
+            {" "}
+            Digital aided school
+          </Link>{" "}
+        </p>
       </div>
     </div>
   );

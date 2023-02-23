@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import Testimonial from "./Testimonial";
+import Testimonial from "./Product";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,25 +16,25 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 const Testimonials = () => {
   const [testimonials, setTestimonials] = useState([]);
   useEffect(() => {
-    fetch("testimonials.json")
+    fetch("product.json")
       .then((res) => res.json())
       .then((data) => setTestimonials(data));
   }, []);
 
   return (
     <div
-      className="bg-[#fafafa] lg:px-14 px-4 pt-10 dark:bg-black dark:text-white"
+      className="bg-[#fafafa] lg:px-14 px-4 pt-5 dark:bg-black dark:text-white"
       id="testimonials"
     >
       <div className="text-center">
         <h2 className="text-5xl leading-[68px] font-semibold pt-8">
-          How can Digitization{" "}
-          <span className="text-logotext">help anyone grow?</span>
+          Product <span className="text-[#3742fa]"> Specification</span>
         </h2>
 
-        <p className="mt-4  text-base font-semibold">
-          Dijitzation has a solution that can
-          help you achieve your digital goals
+        <p className="mt-4 font-semibold">
+          Dijitzation offers a range of products to help organizations of all
+          sizes unlock <br/> the power of digital transformation. From small
+          businesses to large enterprises,
         </p>
       </div>
 

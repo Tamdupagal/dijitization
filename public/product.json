@@ -1,0 +1,65 @@
+[
+  {
+    "_id": 101,
+    "name": "Product Analytics",
+    "review": "Identify key user behaviours within an application.",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  },
+  {
+    "_id": 102,
+    "name": "Guidance Analytics",
+    "review": "Track usage of Widgets and Help content.",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  },
+  {
+    "_id": 103,
+    "name": "User Feedback",
+    "review": "Obtain user feedback on Help content in real time",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  },
+  {
+    "_id": 104,
+    "name": "Content Creation",
+    "review": "Easily create and publish content in engaging formats",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  },
+  {
+    "_id": 105,
+    "name": "Content Aggregation",
+    "review": "Make content from all enterprise systems accessible",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  },
+  {
+    "_id": 106,
+    "name": "Content Management",
+    "review": "Seamlessly manage content in clearly defined stages",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  },
+  {
+    "_id": 107,
+    "name": "Guidance & Training",
+    "review": "Offer step-by-step guidance and train users in real time",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  },
+  {
+    "_id": 108,
+    "name": "On demand Support",
+    "review": "Offer contextual support at the moment of need",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  },
+  {
+    "_id": 109,
+    "name": "In-app messaging",
+    "review": "Make announcements, conduct surveys and communicate change",
+    "ratings": 5,
+    "img": "/assets/user1.png"
+  }
+]
