@@ -64,7 +64,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-[fafafa] p-10 px-6 lg:px-20 dark:bg-black dark:text-white">
+    <div className="bg-[fafafa] p-10 px-6 lg:px-20 dark:bg-[#151515] dark:text-white">
       <div className="flex lg:flex-row flex-col justify-between gap-10  px-2">
         <div className="flex flex-col  lg:items-start gap-2 justify-between">
           <div>
@@ -114,7 +114,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/#testimonials"
+                  href="/page2"
                   className="font-semibold   cursor-pointer hover:text-logotext"
                 >
                   How Its Works
@@ -173,7 +173,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-secondary dark:bg-[#151515] lg:px-12 px-4 py-8 rounded-xl">
+        <div
+          className="bg-secondary dark:bg-[#151515] lg:px-12 px-4 py-8 rounded-xl"
+          id="demo"
+        >
           <p className=" py-2 text-xl font-semibold text-white">
             Dijitization Product Demo
           </p>

@@ -15,7 +15,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/"
-          className="font-semibold px-5   cursor-pointer hover:text-logotext text-xl"
+          className="font-semibold px-5 cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
           Home
         </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/#about"
-          className="font-semibold px-5  cursor-pointer hover:text-logotext text-xl"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
           About us
         </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/#services"
-          className="font-semibold px-5  cursor-pointer hover:text-logotext text-xl"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
           Features
         </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/#testimonials"
-          className="font-semibold px-5  cursor-pointer hover:text-logotext text-xl"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
           Pricing
         </Link>
@@ -49,16 +49,16 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="bg-[#f4f7f2] dark:bg-black dark:text-white flex items-center justify-between py-4 lg:px-20 px-8 fixed w-full z-[9]"
+        className="bg-[#f4f7f2] dark:bg-black dark:text-white flex items-center z-[99] justify-between py-4 lg:px-20 px-8 fixed w-full "
         id="home"
       >
         <h2 className="text-[25px] font-bold cursor-pointer flex items-center text-logotext">
-          {/*   <Image
+          <Image
             src={"/assets/logo.png"}
             alt={"this is logo"}
             width={50}
             height={50}
-          /> */}
+          />
           <p>Dijitization</p>
         </h2>
 
@@ -90,8 +90,8 @@ const Navbar = () => {
       </nav>
 
       {open ? (
-        <div className="bg-[#f4f7f2] text-logotext rounded w-full   py-12 z-100 fixed pt-32 text-center">
-          <ul className=" lg:hidden flex flex-col items-start gap-5 text-center ">
+        <div className="bg-[#f4f7f2] dark:bg-[#000] text-logotext rounded w-full  z-[9]  py-12 z-100 fixed pt-32 text-center">
+          <ul className=" lg:hidden flex flex-col  items-center gap-5 text-center ">
             {menuItems}
             <li>
               <button

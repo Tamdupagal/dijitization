@@ -19,7 +19,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">In-app guidance</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -28,7 +28,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">10 user</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -37,7 +37,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">Applications</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -46,7 +46,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">Smart Context</p>
             </div>
             <div>
-              <AiOutlineClose className="text-2xl text-red-600" />
+              <AiOutlineClose className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -55,7 +55,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">Chat Management</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -65,7 +65,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Task Management</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -75,7 +75,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Surveys</p>
             </div>
             <div>
-              <AiOutlineClose className="text-2xl text-red-600" />
+              <AiOutlineClose className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -84,7 +84,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">User Analytics</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Guidance Analytics</p>
             </div>
             <div>
-              <AiOutlineClose className="text-2xl text-red-600" />
+              <AiOutlineClose className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -106,7 +106,7 @@ const MonthlyPlan = () => {
               </p>
             </div>
             <div>
-              <AiOutlineClose className="text-2xl text-red-600" />
+              <AiOutlineClose className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -116,7 +116,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">SSO</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">In-app guidance</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -156,7 +156,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">40 user</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -165,7 +165,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">4 Applications</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -174,7 +174,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">Smart Context</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />{" "}
+              <AiOutlineCheck className="text-2xl dark:text-white" />{" "}
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -183,7 +183,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">Chat Management</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -193,7 +193,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Task Management</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -203,7 +203,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Surveys</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -212,7 +212,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">User Analytics</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -222,7 +222,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Guidance Analytics</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -234,7 +234,7 @@ const MonthlyPlan = () => {
               </p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -244,7 +244,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">SSO</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
         </div>
@@ -268,7 +268,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">In-app guidance</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -277,7 +277,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">50 user</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -286,7 +286,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">5 Applications</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -295,7 +295,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">Smart Context</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -304,7 +304,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold ">Chat Management</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -314,7 +314,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Task Management</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -324,7 +324,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Surveys</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
           <div className="flex items-center justify-between mb-0.5">
@@ -333,7 +333,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">User Analytics</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -343,7 +343,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">Guidance Analytics</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -355,7 +355,7 @@ const MonthlyPlan = () => {
               </p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
 
@@ -365,7 +365,7 @@ const MonthlyPlan = () => {
               <p className="text-lg font-semibold">SSO</p>
             </div>
             <div>
-              <AiOutlineCheck className="text-2xl text-green-700" />
+              <AiOutlineCheck className="text-2xl dark:text-white" />
             </div>
           </div>
         </div>

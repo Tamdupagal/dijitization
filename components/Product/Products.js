@@ -27,13 +27,13 @@ const Testimonials = () => {
       id="testimonials"
     >
       <div className="text-center">
-        <h2 className="text-5xl leading-[68px] font-semibold pt-8">
+        <h2 className="text-4xl lg:text-5xl lg:leading-[68px] font-semibold pt-8">
           Product <span className="text-[#3742fa]"> Specification</span>
         </h2>
 
         <p className="mt-4 font-semibold">
           Dijitzation offers a range of products to help organizations of all
-          sizes unlock <br/> the power of digital transformation. From small
+          sizes unlock <br /> the power of digital transformation. From small
           businesses to large enterprises,
         </p>
       </div>

@@ -21,7 +21,7 @@ const Legacy = () => {
  */}
         <div className="flex-1">
           <h2 className="text-5xl leading-[68px] font-semibold text-center">
-            <h2 className="text-5xl leading-[68px] font-semibold pt-8">
+            <h2 className="text-4xl lg:text-5xl leading-[68px] font-semibold pt-8">
               About <span className="text-logotext"> us</span>
             </h2>
           </h2>
@@ -30,8 +30,8 @@ const Legacy = () => {
             everywhere!
           </p>
 
-          <div className="flex lg:flex-row flex-col gap-10 py-10">
-            <p className="mt-4  text-xl leading-relaxed	">
+          <div className="flex lg:flex-row flex-col gap-10 py-5">
+            <p className="mt-4  text-base leading-relaxed	">
               Our passion for technology and drive to simplify the digital
               journey has led us to create a platform that's equal parts
               innovative, efficient, and fun. We believe that digital
@@ -49,21 +49,21 @@ const Legacy = () => {
             <Image
               src={"/assets/dash.jpg"}
               alt="Dash"
-              width={500}
-              height={400}
+              width={300}
+              height={200}
               className="m-[auto] rounded-xl"
             />
           </div>
 
-          <div className="flex lg:flex-row flex-col gap-10 py-10">
+          <div className="flex lg:flex-row flex-col gap-10 py-5">
             <Image
               src={"/assets/misvis.png"}
               alt="Dash"
-              width={500}
-              height={400}
+              width={300}
+              height={200}
               className="m-[auto] rounded-xl"
             />
-            <p className="mt-4  text-xl leading-relaxed	">
+            <p className="mt-4  text-base leading-relaxed	">
               {" "}
               <b className="text-[#3742fa]">Mission</b>
               <br />
@@ -81,8 +81,8 @@ const Legacy = () => {
             </p>
           </div>
 
-          <div className="flex lg:flex-row flex-col gap-10 py-10">
-            <p className="mt-1 text-xl leading-relaxed	">
+          <div className="flex lg:flex-row flex-col gap-10 py-5">
+            <p className="mt-1 text-base leading-relaxed	">
               {" "}
               In the words of{" "}
               <b className="text-[#3742fa]">Founder & CEO-Mallikarjun Reddy</b>:
@@ -98,8 +98,8 @@ const Legacy = () => {
             <Image
               src={"/assets/team.jpg"}
               alt="Dash"
-              width={500}
-              height={400}
+              width={300}
+              height={200}
               className="m-[auto] rounded-xl"
             />
           </div>

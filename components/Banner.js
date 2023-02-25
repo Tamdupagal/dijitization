@@ -5,6 +5,9 @@ import banner2 from "/public/assets/dash2.png";
 // import banner3 from "/public/assets/dash3.png";
 import banner4 from "/public/assets/dash4.png";
           // <Image src={banner4} alt="banner img" width={400} height={300} />
+import Link from "next/link";
+
+
 
 const Banner = () => {
   return (
@@ -23,18 +26,11 @@ const Banner = () => {
           or a large enterprise,
           <br /> Dijitzation can help you achieve your digital goals.
         </p>
-        <button className="py-4 px-10 bg-logotext text-white rounded-xl mt-12 font-bold hover:bg-[#666A7B] hover:text-white ">
-          Request a Demo Today
+        <button className="py-4 px-10 bg-logotext text-white rounded-xl mt-12 font-bold hover:bg-[#666A7B] hover:text-white " >
+          <Link href="/#demo" >Request a Demo Today</Link>
         </button>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-20">
-        <Image src={banner1} alt="banner img" width={400} height={300} />
-        <div className="flex gap-5 flex-col lg:flex-row">
-          <div className="flex flex-col items-center gap-5 h-full ">
-            <Image src={banner2} alt="banner img" width={400} height={300} />
-          </div>
-        </div>
-      </div>
+     
     </div>
   );
 };

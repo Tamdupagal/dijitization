@@ -1,5 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
 import Testimonial from "./Testimonial";
+import Image from "next/image";
+// import React from "react";
+import banner1 from "/public/assets/dash3.png";
+import banner2 from "/public/assets/dash2.png";
+import banner3 from "/public/assets/dash3.png";
+import banner4 from "/public/assets/dash4.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -23,18 +29,18 @@ const Testimonials = () => {
 
   return (
     <div
-      className="bg-[#fafafa] lg:px-14 px-4 pt-10 dark:bg-black dark:text-white"
+      className="bg-[#fafafa] lg:px-14 px-4 pt-20 dark:bg-black dark:text-white"
       id="testimonials"
     >
       <div className="text-center">
-        <h2 className="text-5xl leading-[68px] font-semibold pt-8">
+        <h2 className="text-4xl lg:text-5xl lg:leading-[68px] font-semibold lg:pt-8">
           How can Digitization{" "}
           <span className="text-logotext">help anyone grow?</span>
         </h2>
 
         <p className="mt-4  text-base font-semibold">
-          Dijitzation has a solution that can
-          help you achieve your digital goals
+          Dijitzation has a solution that can help you achieve your digital
+          goals
         </p>
       </div>
 
@@ -77,6 +83,16 @@ const Testimonials = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-20">
+          <Image src={banner1} alt="banner img" width={400} height={300} />
+          <div className="flex gap-5 flex-col lg:flex-row">
+            <div className="flex flex-col items-center gap-5 h-full ">
+              <Image src={banner2} alt="banner img" width={400} height={300} />
+            </div>
+            <Image src={banner4} alt="banner img" width={400} height={300} />
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const Services = () => {
         id="services"
       >
         <div className="text-center">
-          <h2 className="text-5xl leading-[68px] font-semibold pt-8">
+          <h2 className="text-4xl lg:text-5xl leading-[68px] font-semibold pt-8">
             Product <span className="text-logotext"> features</span>
           </h2>
 
