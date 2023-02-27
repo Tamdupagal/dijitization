@@ -5,6 +5,7 @@ import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 import { useTheme } from "next-themes";
+import logo from "../public/logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -53,12 +54,7 @@ const Navbar = () => {
         id="home"
       >
         <h2 className="text-[25px] font-bold cursor-pointer flex items-center text-logotext">
-          <Image
-            src={"/assets/logo.png"}
-            alt={"this is logo"}
-            width={50}
-            height={50}
-          />
+          <Image src={logo} alt={"this is logo"} width={50} height={50} />
           <p>Dijitization</p>
         </h2>
 

@@ -68,7 +68,9 @@ const Footer = () => {
       <div className="flex lg:flex-row flex-col justify-between gap-10  px-2">
         <div className="flex flex-col  lg:items-start gap-2 justify-between">
           <div>
-            <h2 className="text-2xl font-bold cursor-pointer">Dijitization</h2>
+            <h2 className="text-2xl font-bold cursor-pointer text-[#3742fa]">
+              Dijitization
+            </h2>
             <p className="mt-3  text-lg dark:text-white">
               Our mission is to simplify digital transformation, one step at a
               time. <br />
@@ -78,7 +80,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold ">Useful Links</h2>
+            <h2 className="text-2xl font-bold text-[#3742fa] ">Useful Links</h2>
             <ul className="flex flex-col justify-start gap-1  mt-3  ">
               <li>
                 <Link
@@ -124,14 +126,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold ">Address</h2>
+            <h2 className="text-2xl font-bold text-[#3742fa]">Address</h2>
             <p className="mt-3  ">
               {" "}
               79 V Mall, Western Express Hwy, Thakur Complex, Kandivali East,
               Mumbai, MH 400101, India.
             </p>
           </div>
-          <p className="text-2xl font-bold">Social Media</p>
+          <p className="text-2xl font-bold text-[#3742fa] ">Social Media</p>
           <div className="flex items-center  gap-3 text-white">
             <div className="text-2xl  bg-blue-500 hover:bg-tomato  icon-bg w-10 h-10 rounded-full flex items-center justify-center mb-3 ">
               <span>
@@ -177,7 +179,7 @@ const Footer = () => {
           className="bg-secondary dark:bg-[#151515] lg:px-12 px-4 py-8 rounded-xl"
           id="demo"
         >
-          <p className=" py-2 text-xl font-semibold text-white">
+          <p className=" py-2 text-xl font-semibold text-[#3742fa]">
             Dijitization Product Demo
           </p>
           <p className=" py-2 text-lg text-white">

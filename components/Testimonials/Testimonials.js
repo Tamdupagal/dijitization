@@ -85,12 +85,30 @@ const Testimonials = () => {
         </Swiper>
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-20">
-          <Image src={banner1} alt="banner img" width={400} height={300} />
+          <Image
+            className="rounded-lg"
+             src={banner1}
+            alt="banner img"
+            width={400}
+            height={300}
+          />
           <div className="flex gap-5 flex-col lg:flex-row">
             <div className="flex flex-col items-center gap-5 h-full ">
-              <Image src={banner2} alt="banner img" width={400} height={300} />
+              <Image
+                className="rounded-lg"
+                src={banner2}
+                alt="banner img"
+                width={400}
+                height={300}
+              />
             </div>
-            <Image src={banner4} alt="banner img" width={400} height={300} />
+            <Image
+              className="rounded-lg"
+              src={banner4}
+              alt="banner img"
+              width={400}
+              height={300}
+            />
           </div>
         </div>
       </div>
