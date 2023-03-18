@@ -2,10 +2,10 @@ import React, { useEffect, useState, useRef } from "react";
 import Testimonial from "./Testimonial";
 import Image from "next/image";
 // import React from "react";
-import banner1 from "/public/assets/dash3.png";
-import banner2 from "/public/assets/dash2.png";
-import banner3 from "/public/assets/dash3.png";
-import banner4 from "/public/assets/dash4.png";
+import banner1 from "/public/assets/dashb.png";
+import banner2 from "/public/assets/dashc.png";
+// import banner3 from "/public/assets/dash.png";
+import banner4 from "/public/assets/dasht.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -29,7 +29,7 @@ const Testimonials = () => {
 
   return (
     <div
-      className="bg-[#fafafa] lg:px-14 px-4 pt-20 dark:bg-black dark:text-white"
+      className="bg-[#fafafa] lg:px-14 px-4 pt-20 dark:bg-[#181818] dark:text-white"
       id="testimonials"
     >
       <div className="text-center">
@@ -87,7 +87,7 @@ const Testimonials = () => {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-20">
           <Image
             className="rounded-lg"
-             src={banner1}
+            src={banner1}
             alt="banner img"
             width={400}
             height={300}

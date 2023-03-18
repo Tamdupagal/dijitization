@@ -3,7 +3,7 @@ import Link from "next/link";
 function ThankYouPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen dark:bg-white bg-gray-100">
-      <div className="max-w-lg mx-auto p-6 bg-white dark:bg-black rounded shadow-md">
+      <div className="max-w-lg mx-auto p-6 bg-white dark:bg-[#181818] rounded shadow-md">
         <h1 className="text-3xl font-bold dark:text-white text-center mb-4">
           Thank You for Submitting Your Information!
         </h1>
@@ -23,4 +23,4 @@ function ThankYouPage() {
   );
 }
 
-export default ThankYouPage
+export default ThankYouPage;

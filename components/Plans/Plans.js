@@ -18,7 +18,7 @@ const Plans = () => {
   // console.log(monthly)
 
   return (
-    <div className="text-fontclr  px-5 lg:px-24 pt-5 dark:bg-black dark:text-white">
+    <div className="text-fontclr  px-5 lg:px-24 pt-5 dark:bg-[#181818] dark:text-white">
       <div className="text-center   container">
         <h2 className="text-4xl lg:text-5xl leading-[68px] font-semibold pt-8">
           Pricing <span className="text-logotext"> plans</span>
@@ -34,12 +34,12 @@ const Plans = () => {
       </div>
 
       <div className="flex items-center justify-center">
-        <span className="border-2 border-tomato rounded-xl">
+        <span className="border-2 border-tomato rounded-lg">
           <button
             onClick={handleMonthlyBtn}
             className={`${
               monthly ? "bg-logotext text-white" : ""
-            }  hover:text-white font-bold px-8 py-4 rounded-xl `}
+            }  hover:text-white font-bold px-8 py-4 rounded-lg `}
           >
             Monthly
           </button>
@@ -48,7 +48,7 @@ const Plans = () => {
             onClick={handleYearlyBtn}
             className={`${
               !monthly ? "bg-logotext text-white" : ""
-            }   hover:text-white font-bold px-8 py-4 rounded-xl`}
+            }   hover:text-white font-bold px-8 py-4 rounded-lg`}
           >
             Yearly
           </button>

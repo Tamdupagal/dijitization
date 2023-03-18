@@ -6,6 +6,7 @@ import { RxCross2 } from "react-icons/rx";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 import { useTheme } from "next-themes";
 import logo from "../public/logo.png";
+import NavTop from "./NavTop";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/"
-          className="font-semibold px-5 cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
           Home
         </Link>
@@ -50,7 +51,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="bg-[#f4f7f2] dark:bg-black dark:text-white flex items-center z-[99] justify-between py-4 lg:px-20 px-8 fixed w-full "
+        className="bg-[#fff]  dark:bg-[#181818] dark:text-white flex items-center z-[99] justify-between py-2 lg:px-20 px-8 fixed w-full  "
         id="home"
       >
         <h2 className="text-[25px] font-bold cursor-pointer flex items-center text-logotext">
@@ -71,9 +72,9 @@ const Navbar = () => {
           </button>
           <button
             href="https://dashboard.dijitization.com/"
-            className="bg-logotext text-white px-6 py-3 rounded-xl lg:block hidden hover:bg-[#666A7B] hover:text-white"
+            className=" text-[#3742fa] text-lg px-6 py-3 border-[#3742fa] border-2 font-semibold rounded-lg lg:block hidden hover:bg-[#3742fa] hover:text-white"
           >
-            Get Started
+            Contact Sales
           </button>
         </div>
         <button onClick={() => setOpen(!open)} className="block lg:hidden ">
@@ -92,7 +93,7 @@ const Navbar = () => {
             <li>
               <button
                 href="/"
-                className="bg-logotext w-full px-4 py-2 rounded-xl text-white hover:bg-[#666A7B] hover:text-white"
+                className="bg-logotext w-full px-4 py-2 rounded-lg text-white hover:bg-[#666A7B] hover:text-white"
               >
                 Get Started
               </button>

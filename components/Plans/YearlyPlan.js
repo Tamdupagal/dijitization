@@ -5,7 +5,7 @@ import { GoPrimitiveDot } from "react-icons/go";
 const YearlyPlan = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10 capitalize">
-      <div className="card-border bg-white dark:bg-[#151515] shadow-lg price_card p-8  rounded-xl text-left text-fontclr">
+      <div className="card-border bg-white dark:bg-[#151515] shadow-lg price_card p-8  rounded-lg text-left text-fontclr">
         <h2 className="text-2xl font-semibold  ">Start Up Plan</h2>
         <h3 className="text-5xl font-bold my-2">$240</h3>
 
@@ -121,12 +121,12 @@ const YearlyPlan = () => {
           </div>
         </div>
 
-        <button className="bg-gradient-to-t dark:text-[#151515] from-orange via-[#ff7e62] to-[#ff5f59] text-white font-semibold text-lg px-10 py-3 rounded-xl mt-3">
+        <button className="bg-gradient-to-t dark:text-[#151515] from-orange via-[#ff7e62] to-[#ff5f59] text-white font-semibold text-lg px-10 py-3 rounded-lg mt-3">
           Get Started
         </button>
       </div>
 
-      <div className="card-border price_card p-8 bg-white dark:bg-[#151515] shadow-lg  rounded-xl text-left text-fontclr">
+      <div className="card-border price_card p-8 bg-white dark:bg-[#151515] shadow-lg  rounded-lg text-left text-fontclr">
         <div>
           <h2 className="text-2xl font-semibold ">
             Growth{" "}
@@ -249,12 +249,12 @@ const YearlyPlan = () => {
           </div>
         </div>
 
-        <button className="bg-gradient-to-t dark:text-[#151515] from-orange via-[#ff7e62] to-[#ff5f59] text-white font-semibold text-lg px-10 py-3 rounded-xl mt-3">
+        <button className="bg-gradient-to-t dark:text-[#151515] from-orange via-[#ff7e62] to-[#ff5f59] text-white font-semibold text-lg px-10 py-3 rounded-lg mt-3">
           Get Started
         </button>
       </div>
 
-      <div className="card-border price_card p-8 bg-white dark:bg-[#151515] shadow-lg rounded-xl text-left text-fontclr">
+      <div className="card-border price_card p-8 bg-white dark:bg-[#151515] shadow-lg rounded-lg text-left text-fontclr">
         <h2 className="text-2xl font-semibold ">Enterprise</h2>
         <h3 className="text-5xl text-tomato font-bold my-2">$890</h3>
 
@@ -370,7 +370,7 @@ const YearlyPlan = () => {
           </div>
         </div>
 
-        <button className="bg-gradient-to-t dark:text-[#151515] from-orange via-[#ff7e62] to-[#ff5f59] text-white font-semibold text-lg px-10 py-3 rounded-xl mt-3">
+        <button className="bg-gradient-to-t dark:text-[#151515] from-orange via-[#ff7e62] to-[#ff5f59] text-white font-semibold text-lg px-10 py-3 rounded-lg mt-3">
           Get Started
         </button>
       </div>

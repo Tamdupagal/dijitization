@@ -5,10 +5,10 @@ import plus from "/public/assets/plus.png";
 const Legacy = () => {
   return (
     <div
-      className="bg-[#fafafa] relative dark:bg-black dark:text-white pt-20"
+      className="bg-[#fafafa] relative dark:bg-[#181818] text-white pt-20"
       id="about"
     >
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-5  lg:px-36 px-6">
+      <div className="bg-[#7980FC] flex flex-col  lg:flex-row items-center justify-center gap-5  lg:px-36 px-6">
         {/* <div className={"legacy_dentist_bg  flex-1"}>
           <Image
             src={"/assets/logo.png"}
@@ -30,7 +30,7 @@ const Legacy = () => {
             everywhere!
           </p>
 
-          <div className="flex lg:flex-row flex-col gap-10 py-5">
+          <div className="flex lg:flex-row to-white flex-col gap-10 py-5">
             <p className="mt-4  text-base leading-relaxed	">
               Our passion for technology and drive to simplify the digital
               journey has led us to create a platform that's equal parts
@@ -51,7 +51,7 @@ const Legacy = () => {
               alt="Dash"
               width={300}
               height={200}
-              className="m-[auto] rounded-xl"
+              className="m-[auto] rounded-lg"
             />
           </div>
 
@@ -61,7 +61,7 @@ const Legacy = () => {
               alt="Dash"
               width={300}
               height={200}
-              className="m-[auto] rounded-xl"
+              className="m-[auto] rounded-lg"
             />
             <p className="mt-4  text-base leading-relaxed	">
               {" "}
@@ -100,7 +100,7 @@ const Legacy = () => {
               alt="Dash"
               width={300}
               height={200}
-              className="m-[auto] rounded-xl"
+              className="m-[auto] rounded-lg"
             />
           </div>
         </div>
