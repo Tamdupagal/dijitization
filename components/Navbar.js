@@ -17,6 +17,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/"
+          onClick={() => setOpen(!open)}
           className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
           Home
@@ -25,6 +26,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/#about"
+          onClick={() => setOpen(!open)}
           className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
           About us
@@ -32,6 +34,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link
+          onClick={() => setOpen(!open)}
           href="/#services"
           className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
@@ -40,6 +43,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link
+          onClick={() => setOpen(!open)}
           href="/#testimonials"
           className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
         >
