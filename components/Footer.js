@@ -64,7 +64,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-secondary p-10 px-6 lg:px-20 dark:bg-[#151515] text-white dark:text-white">
+    <div className="bg-gradient-to-r from-[#737bfc] via-[#5f68fb] to-[#3742fa] p-10 px-6 lg:px-20 dark:bg-[#151515] text-white dark:text-white">
       <div className="flex lg:flex-row flex-col justify-between gap-10  px-2">
         <div className="flex flex-col  lg:items-start gap-2 justify-between">
           <div>

@@ -8,7 +8,7 @@ const Legacy = () => {
       className="bg-[#fafafa] relative dark:bg-[#181818] text-white pt-20"
       id="about"
     >
-      <div className="bg-[#7980FC] flex flex-col  lg:flex-row items-center justify-center gap-5  lg:px-36 px-6">
+      <div className="bg-gradient-to-r from-[#737bfc] via-[#5f68fb] to-[#3742fa] flex flex-col  lg:flex-row items-center justify-center gap-5  lg:px-36 px-6">
         {/* <div className={"legacy_dentist_bg  flex-1"}>
           <Image
             src={"/assets/logo.png"}

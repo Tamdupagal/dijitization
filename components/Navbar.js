@@ -97,9 +97,9 @@ const Navbar = () => {
             <li>
               <button
                 href="/"
-                className="bg-logotext w-full px-4 py-2 rounded-lg text-white hover:bg-[#666A7B] hover:text-white"
+                className="bg-logotext w-full px-4 py-2 rounded-full text-white hover:bg-[#666A7B] hover:text-white"
               >
-                Get Started
+                Contact Sales
               </button>
             </li>
           </ul>
