@@ -9,8 +9,8 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="bg-[#f4f7f2] text-center pt-32 px-6 lg:px-20 pb-14 dark:bg-[#181818] dark:text-white">
-      <div className="flex flex-col items-center justify-between">
+    <div className="bg-[#f4f7f2] text-center pt-32 px-6 lg:px-20 pb-36 dark:bg-[#181818] dark:text-white">
+      <div className="flex flex-col pt-10 items-center justify-between">
         <h2 className="text-4xl lg:text-6xl leading-[50px] lg:leading-[80px] font-bold pt-8">
           Dijitzation
           <span className="text-logotext">

@@ -29,7 +29,7 @@ const Testimonials = () => {
 
   return (
     <div
-      className="bg-[#fafafa] lg:px-14 px-4 pt-20 dark:bg-[#181818] dark:text-white"
+      className="bg-[#fafafa] lg:px-14 px-4  dark:bg-[#181818] dark:text-white"
       id="testimonials"
     >
       <div className="text-center">

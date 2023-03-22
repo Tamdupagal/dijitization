@@ -55,7 +55,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="bg-[#f4f7f2]  dark:bg-[#181818] dark:text-white flex items-center z-[99] justify-between py-2 lg:px-20 px-8 fixed w-full  "
+        className="bg-[#f4f7f2]  dark:bg-[#181818]  dark:text-white flex items-center z-[99] justify-between py-4 lg:px-20 px-8 fixed w-full"
         id="home"
       >
         <h2 className="text-[22px] font-bold cursor-pointer flex items-center text-logotext">
