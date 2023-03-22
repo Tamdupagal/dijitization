@@ -25,10 +25,10 @@ const Banner = () => {
           <br /> Dijitzation can help you achieve your digital goals. */}
         </p>
         <div className="flex flex-row gap-6">
-          <button className="lg:py-3  py-2 px-3 font-bold bg-[#2b2e4a] lg:text-md text-sm text-white rounded-full mt-12  hover:bg-logotext hover:text-white ">
+          <button className="lg:py-3  py-2 px-5 font-bold bg-[#2b2e4a] lg:text-md text-sm text-white rounded-full mt-12  hover:bg-logotext hover:text-white ">
             <Link href="/#demo">Book my demo</Link>
           </button>
-          <button className="lg:py-3 py-2 px-3 bg-white text-logotext rounded-full mt-12 lg:text-md text-sm border border-logotext   ">
+          <button className="lg:py-3 py-2 px-5 bg-white text-logotext rounded-full mt-12 lg:text-md text-sm border border-logotext   ">
             <Link href="/#demo">Book my demo</Link>
           </button>
         </div>

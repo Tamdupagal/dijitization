@@ -27,7 +27,7 @@ const Testimonials = () => {
       id="testimonials"
     >
       <div className="text-center">
-        <h2 className="text-4xl lg:text-5xl lg:leading-[68px] font-semibold pt-8">
+        <h2 className="text-3xl lg:text-4xl lg:leading-[68px] font-semibold pt-8">
           Product <span className="text-[#3742fa]"> Specification</span>
         </h2>
 

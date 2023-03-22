@@ -21,7 +21,7 @@ const Legacy = () => {
  */}
         <div className="flex-1">
           <h2 className="text-5xl leading-[68px] font-semibold text-center">
-            <h2 className="text-4xl lg:text-5xl leading-[68px] font-semibold pt-8">
+            <h2 className="text-3xl lg:text-4xl leading-[68px] font-semibold pt-8">
               About <span className="text-logotext"> us</span>
             </h2>
           </h2>
