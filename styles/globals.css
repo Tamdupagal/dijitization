@@ -1,16 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -115,16 +113,13 @@ a {
   }
 }
 
-
-
 .price_card {
-  border: 1px solid #7980FC;
+  border: 1px solid #7980fc;
   position: relative;
-  color: #3742FA;
+  color: #3742fa;
   overflow: hidden;
   z-index: 1;
   transition: all 0.5s linear;
-  
 }
 
 .price_card::before {
@@ -152,7 +147,7 @@ a {
 }
 
 .price_card h3 {
-  color: #7980FC;
+  color: #7980fc;
 }
 
 .price_card:hover h3 {
@@ -169,6 +164,6 @@ a {
 
 .price_card:hover button {
   background: white;
-  border: 1px solid #7980FC;
-  color: #7980FC;
+  border: 1px solid #7980fc;
+  color: #7980fc;
 }

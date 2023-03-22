@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link
           href="/"
           onClick={() => setOpen(!open)}
-          className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
           Home
         </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link
           href="/#about"
           onClick={() => setOpen(!open)}
-          className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
           About us
         </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <Link
           onClick={() => setOpen(!open)}
           href="/#services"
-          className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
           Features
         </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
         <Link
           onClick={() => setOpen(!open)}
           href="/#testimonials"
-          className="font-semibold px-5  cursor-pointer hover:bg-[#3742fa] hover:text-white py-2 rounded-lg text-lg"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
           Pricing
         </Link>
@@ -55,10 +55,10 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="bg-[#fff]  dark:bg-[#181818] dark:text-white flex items-center z-[99] justify-between py-2 lg:px-20 px-8 fixed w-full  "
+        className="bg-[#f4f7f2]  dark:bg-[#181818] dark:text-white flex items-center z-[99] justify-between py-2 lg:px-20 px-8 fixed w-full  "
         id="home"
       >
-        <h2 className="text-[25px] font-bold cursor-pointer flex items-center text-logotext">
+        <h2 className="text-[22px] font-bold cursor-pointer flex items-center text-logotext">
           <Image src={logo} alt={"this is logo"} width={50} height={50} />
           <p>Dijitization</p>
         </h2>
@@ -76,7 +76,7 @@ const Navbar = () => {
           </button>
           <button
             href="https://dashboard.dijitization.com/"
-            className=" text-[#3742fa] text-lg px-6 py-3 border-[#3742fa] border-2 font-semibold rounded-lg lg:block hidden hover:bg-[#3742fa] hover:text-white"
+            className=" text-[#3742fa] text-[14px] px-6 py-2 border-[#3742fa] border-2 font-semibold rounded-full lg:block hidden hover:bg-[#3742fa] hover:text-white"
           >
             Contact Sales
           </button>

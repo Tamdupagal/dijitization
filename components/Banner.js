@@ -12,21 +12,26 @@ const Banner = () => {
     <div className="bg-[#f4f7f2] text-center pt-32 px-6 lg:px-20 pb-14 dark:bg-[#181818] dark:text-white">
       <div className="flex flex-col items-center justify-between">
         <h2 className="text-4xl lg:text-6xl leading-[50px] lg:leading-[80px] font-bold pt-8">
-          Welcome to Dijitzation
+          Dijitzation
           <span className="text-logotext">
             <br />
             The Ultimate Digital Adoption Platform
           </span>
         </h2>
-        <p className="mt-8 text-md font-semibold">
+        <p className="mt-8 text-lg max-w-2xl font-700 opacity-90 ">
           Dijitzation is a cutting-edge platform designed to help anyone
           streamline and optimize their digital processes.
-          <br /> Whether you're an SMB or a large enterprise,
-          <br /> Dijitzation can help you achieve your digital goals.
+          {/*  <br /> Whether you're an SMB or a large enterprise,
+          <br /> Dijitzation can help you achieve your digital goals. */}
         </p>
-        <button className="py-4 px-10 bg-logotext text-white rounded-lg mt-12 font-bold hover:bg-[#666A7B] hover:text-white ">
-          <Link href="/#demo">Book my demo</Link>
-        </button>
+        <div className="flex flex-row gap-6">
+          <button className="lg:py-3  py-2 px-3 font-bold bg-[#2b2e4a] lg:text-md text-sm text-white rounded-full mt-12  hover:bg-logotext hover:text-white ">
+            <Link href="/#demo">Book my demo</Link>
+          </button>
+          <button className="lg:py-3 py-2 px-3 bg-white text-logotext rounded-full mt-12 lg:text-md text-sm border border-logotext   ">
+            <Link href="/#demo">Book my demo</Link>
+          </button>
+        </div>
       </div>
     </div>
   );
