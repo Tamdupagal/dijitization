@@ -5,7 +5,7 @@ import { AiFillStar } from "react-icons/ai";
 const Testimonial = ({ testimonial }) => {
   const { name, review, img, ratings } = testimonial;
   return (
-    <div className="dark:bg-[#2f2f2f] bg-white dark:border-[#3742fa] border  p-5 rounded-lg shadow-lg text-center my-5  h-36">
+    <div className="dark:bg-[#2f2f2f] bg-white p-5 rounded-lg shadow-lg text-center my-5  h-36">
       <div className="flex flex-col items-center">
         <h3 className="text-xl font-semibold mt-3">{name}</h3>
       </div>

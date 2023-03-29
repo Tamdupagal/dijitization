@@ -175,10 +175,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div
-          className="bg-secondary dark:bg-[#2f2f2f] lg:px-12 py-8 rounded-lg"
-          id="demo"
-        >
+        <div className="  lg:px-12 py-8 rounded-lg" id="demo">
           <p className=" py-2 text-xl font-semibold text-[#3742fa]">
             Dijitization Product Demo
           </p>

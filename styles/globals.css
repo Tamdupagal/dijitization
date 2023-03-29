@@ -114,7 +114,6 @@ a {
 }
 
 .price_card {
-  border: 1px solid #7980fc;
   position: relative;
   color: #3742fa;
   overflow: hidden;
@@ -166,4 +165,14 @@ a {
   background: white;
   border: 1px solid #7980fc;
   color: #7980fc;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, -4px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
 }
