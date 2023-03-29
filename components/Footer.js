@@ -64,7 +64,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-[#737bfc] via-[#5f68fb] to-[#3742fa] p-10 px-6 lg:px-20 dark:bg-[#151515] text-white dark:text-white">
+    <div className="bg-gradient-to-r from-[#737bfc] via-[#5f68fb] to-[#3742fa] p-10 px-6 lg:px-20 dark:bg-[#2f2f2f] text-white dark:text-white">
       <div className="flex lg:flex-row flex-col justify-between gap-10  px-2">
         <div className="flex flex-col  lg:items-start gap-2 justify-between">
           <div>
@@ -176,7 +176,7 @@ const Footer = () => {
           </div>
         </div>
         <div
-          className="bg-secondary dark:bg-[#151515] lg:px-12 py-8 rounded-lg"
+          className="bg-secondary dark:bg-[#2f2f2f] lg:px-12 py-8 rounded-lg"
           id="demo"
         >
           <p className=" py-2 text-xl font-semibold text-[#3742fa]">
@@ -193,7 +193,7 @@ const Footer = () => {
                 value={formData.firstName}
                 onChange={handleInputChange}
                 name="firstName"
-                className="  rounded-lg py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border"
+                className="  rounded-lg py-3 px-4 w-full bg-secondary dark:bg-[#2f2f2f] border-white border"
               />
               <input
                 type="text"
@@ -201,7 +201,7 @@ const Footer = () => {
                 value={formData.lastName}
                 onChange={handleInputChange}
                 name="lastName"
-                className="rounded-lg py-3 px-4 w-full bg-secondary dark:bg-[#151515]  border-white border"
+                className="rounded-lg py-3 px-4 w-full bg-secondary dark:bg-[#2f2f2f]  border-white border"
               />
               <input
                 type="name"
@@ -209,7 +209,7 @@ const Footer = () => {
                 value={formData.companyName}
                 name="companyName"
                 onChange={handleInputChange}
-                className="rounded-lg py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border"
+                className="rounded-lg py-3 px-4 w-full bg-secondary dark:bg-[#2f2f2f] border-white border"
               />
               <input
                 type="email"
@@ -217,7 +217,7 @@ const Footer = () => {
                 value={formData.workEmail}
                 name="workEmail"
                 onChange={handleInputChange}
-                className="rounded-lg py-3 px-4 w-full bg-secondary dark:bg-[#151515] border-white border text-white"
+                className="rounded-lg py-3 px-4 w-full bg-secondary dark:bg-[#2f2f2f] border-white border text-white"
               />
               <button
                 type="submit"
