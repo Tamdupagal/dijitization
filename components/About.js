@@ -8,7 +8,7 @@ const Legacy = () => {
       className="bg-[#fafafa] relative dark:bg-[#181818] text-white pt-20"
       id="about"
     >
-      <div className="bg-gradient-to-r from-[#737bfc] via-[#5f68fb] to-[#3742fa] flex flex-col  lg:flex-row items-center justify-center gap-5  lg:px-36 px-6">
+      <div className="bg-gradient-to-r from-[#737bfc] via-[#5f68fb] to-[#3742fa] dark:bg-gradient-to-r  flex flex-col  lg:flex-row items-center justify-center gap-5  lg:px-36 px-6">
         {/* <div className={"legacy_dentist_bg  flex-1"}>
           <Image
             src={"/assets/logo.png"}
@@ -22,7 +22,7 @@ const Legacy = () => {
         <div className="flex-1">
           <h2 className="text-5xl leading-[68px] font-semibold text-center">
             <h2 className="text-3xl lg:text-4xl leading-[68px] font-semibold pt-8">
-              About <span className="text-logotext"> us</span>
+              About us
             </h2>
           </h2>
           <p className="py-4 lg:text-2xl capitalize font-400 text-center text-2xl  ">

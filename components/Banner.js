@@ -29,7 +29,7 @@ const Banner = () => {
             <Link href="/#demo">Book my demo</Link>
           </button>
           <button className="lg:py-3 py-2 px-5 bg-white text-logotext rounded-full mt-12 lg:text-md text-sm border border-logotext   ">
-            <Link href="/#demo">Book my demo</Link>
+            <Link href="/#demo">Learn more.</Link>
           </button>
         </div>
       </div>

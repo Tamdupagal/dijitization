@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link
           href="/"
           onClick={() => setOpen(!open)}
-          className="font-semibold px-5  cursor-pointer hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
+          className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
           Home
         </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link
           href="/#about"
           onClick={() => setOpen(!open)}
-          className="font-semibold px-5  cursor-pointer hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
+          className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
           About us
         </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <Link
           onClick={() => setOpen(!open)}
           href="/#services"
-          className="font-semibold px-5  cursor-pointer hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
+          className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
           Features
         </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
         <Link
           onClick={() => setOpen(!open)}
           href="/#testimonials"
-          className="font-semibold px-5  cursor-pointer hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
+          className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
           Pricing
         </Link>
