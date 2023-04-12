@@ -6,7 +6,7 @@ import banner1 from "/public/assets/dashb.png";
 import banner2 from "/public/assets/dashc.png";
 // import banner3 from "/public/assets/dash.png";
 import banner4 from "/public/assets/dasht.png";
-
+import { testData } from "@/public/testimonials";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -20,16 +20,9 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation, Pagination } from "swiper";
 
 const Testimonials = () => {
-  const [testimonials, setTestimonials] = useState([]);
-  useEffect(() => {
-    fetch("testimonials.json")
-      .then((res) => res.json())
-      .then((data) => setTestimonials(data));
-  }, []);
-
   return (
     <div
-      className="bg-[#fafafa] lg:px-14 px-4  pt-10 dark:bg-[#181818] dark:text-white"
+      className="bg-[#fafafa] lg:px-14 px-4  pt-10 dark:bg-[#0a1424] dark:text-white"
       id="testimonials"
     >
       <div className="text-center">
@@ -52,9 +45,6 @@ const Testimonials = () => {
             delay: 3000,
             disableOnInteraction: true,
           }}
-          pagination={{
-            clickable: true,
-          }}
           slidesPerView={2}
           slidesPerGroup={1}
           breakpoints={{
@@ -70,16 +60,16 @@ const Testimonials = () => {
               spaceBetween: 50,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 50,
             },
           }}
-          modules={[Autoplay, Navigation, Pagination]}
+          modules={[Autoplay, Navigation]}
           className="mySwiper "
         >
-          {testimonials.map((testimonial) => (
-            <SwiperSlide key={testimonial._id}>
-              <Testimonial testimonial={testimonial} />
+          {testData.map((testData) => (
+            <SwiperSlide key={testData._id}>
+              <Testimonial testDataa={testData} />
             </SwiperSlide>
           ))}
         </Swiper>

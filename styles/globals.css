@@ -115,7 +115,7 @@ a {
 
 .price_card {
   position: relative;
-  color: #3742fa;
+  color: #fff;
   overflow: hidden;
   z-index: 1;
   transition: all 0.5s linear;

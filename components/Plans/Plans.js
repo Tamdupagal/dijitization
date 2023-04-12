@@ -18,7 +18,7 @@ const Plans = () => {
   // console.log(monthly)
 
   return (
-    <div className="text-fontclr  px-5 lg:px-24 pt-5 dark:bg-[#181818] dark:text-white">
+    <div className="text-fontclr  px-5 lg:px-24 pt-5 dark:bg-[#0a1424] dark:text-white">
       <div className="text-center   container">
         <h2 className="text-3xl lg:text-4xl leading-[68px] font-semibold pt-8">
           Pricing <span className="text-logotext"> plans</span>

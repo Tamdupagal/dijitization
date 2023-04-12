@@ -42,7 +42,7 @@ const catagoriesData = [
 
 const Catagories = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-4 justify-items-center gap-6 pt-18 bg-[#fafafa] catagory_container py-20 dark:bg-[#181818] dark:text-white">
+    <div className="grid grid-cols-1 lg:grid-cols-4 justify-items-center gap-6 pt-18 bg-[#fafafa] catagory_container py-20 dark:bg-[#0a1424] dark:text-white">
       {catagoriesData.map((catagory) => (
         <div
           key={catagory.id}

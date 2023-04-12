@@ -64,7 +64,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="dark:bg-[#181818] ">
+    <div className="dark:bg-[#0a1424] ">
       <div className=" dark:bg-[#161616] bg-[#f4f7f2] rounded-t-[100px]  p-10 px-6 lg:px-20  text-white dark:text-white bga">
         <div className="flex lg:flex-row flex-col justify-between gap-10  px-2">
           <div className="flex flex-col  lg:items-start gap-2 justify-between">
@@ -199,7 +199,7 @@ const Footer = () => {
                   value={formData.firstName}
                   onChange={handleInputChange}
                   name="firstName"
-                  className="  rounded-lg py-3 px-4 w-full  dark:bg-[#2f2f2f] border-[#2b2e4a] border-[1px ]"
+                  className="  rounded-lg py-3 px-4 w-full  dark:bg-[#202e45] border-[#2b2e4a] border-[1px ]"
                 />
                 <input
                   type="text"
@@ -207,7 +207,7 @@ const Footer = () => {
                   value={formData.lastName}
                   onChange={handleInputChange}
                   name="lastName"
-                  className="rounded-lg py-3 px-4 w-full  dark:bg-[#2f2f2f]  border-[#2b2e4a] border-[1px ]"
+                  className="rounded-lg py-3 px-4 w-full  dark:bg-[#202e45]  border-[#2b2e4a] border-[1px ]"
                 />
                 <input
                   type="name"
@@ -215,7 +215,7 @@ const Footer = () => {
                   value={formData.companyName}
                   name="companyName"
                   onChange={handleInputChange}
-                  className="rounded-lg py-3 px-4 w-full  dark:bg-[#2f2f2f] border-[#2b2e4a] border-[1px ]"
+                  className="rounded-lg py-3 px-4 w-full  dark:bg-[#202e45] border-[#2b2e4a] border-[1px ]"
                 />
                 <input
                   type="email"
@@ -223,7 +223,7 @@ const Footer = () => {
                   value={formData.workEmail}
                   name="workEmail"
                   onChange={handleInputChange}
-                  className="rounded-lg py-3 px-4 w-full  dark:bg-[#2f2f2f] border-[#2b2e4a] border-[1px ] text-white"
+                  className="rounded-lg py-3 px-4 w-full  dark:bg-[#202e45] border-[#2b2e4a] border-[1px ] text-white"
                 />
                 <button
                   type="submit"
