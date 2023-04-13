@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Service from "./Service";
+import { dataT } from "@/public/services";
 
 const Services = () => {
-  const [services, setServices] = useState([]);
-  useEffect(() => {
-    fetch("services.json")
-      .then((res) => res.json())
-      .then((data) => setServices(data));
-  }, []);
-
   return (
     <div
       className=" bg-[#fafafa] px-6 lg:px-20 py-5 dark:bg-[#0a1424] dark:text-white"
@@ -27,7 +21,7 @@ const Services = () => {
       </div>
 
       <div className="grid grid-cols-1 px-36  lg:grid-cols-3 justify-items-center gap-6 mt-14">
-        {services.map((service) => (
+        {dataT.map((service) => (
           <Service key={service._id} service={service}></Service>
         ))}
       </div>

@@ -1,4 +1,8 @@
 import { SiHandshake } from "react-icons/si";
+import { BiSupport } from "react-icons/bi";
+import { RiUserStarFill } from "react-icons/ri";
+import { HiComputerDesktop } from "react-icons/hi2";
+import { FaExchangeAlt } from "react-icons/fa";
 
 export const testData = [
   {
@@ -14,21 +18,21 @@ export const testData = [
     name: "Change Management",
     review: "Manage enterprise change with efficiency",
     ratings: 5,
-    img: <SiHandshake />,
+    img: <FaExchangeAlt />,
   },
   {
     _id: 103,
     name: "Remote Training",
     review: "Train remote team members with in-app learning",
     ratings: 5,
-    img: <SiHandshake />,
+    img: <HiComputerDesktop />,
   },
   {
     _id: 104,
     name: "User Adoption",
     review: "Increase user adoption of your enterprise software",
     ratings: 5,
-    img: <SiHandshake />,
+    img: <RiUserStarFill />,
   },
   {
     _id: 105,
@@ -42,13 +46,6 @@ export const testData = [
     name: "Performance Support",
     review: "Improve employee productivity with self-service support",
     ratings: 5,
-    img: <SiHandshake />,
-  },
-  {
-    _id: 107,
-    name: "User Onboarding",
-    review: "Onboard new users faster with personalized walkthroughs",
-    ratings: 5,
-    img: <SiHandshake />,
+    img: <BiSupport />,
   },
 ];
