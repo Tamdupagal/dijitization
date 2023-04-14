@@ -38,7 +38,7 @@ const Testimonials = () => {
           businesses to large enterprises,
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row gap-5">
+      <div className="flex flex-col lg:flex-row gap-10">
         <div>
           <Image
             src={"/assets/dash4.png"}
