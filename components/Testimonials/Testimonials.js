@@ -22,7 +22,7 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 const Testimonials = () => {
   return (
     <div
-      className="bg-[#fafafa] lg:px-14 px-4  pt-10 dark:bg-[#0a1424] dark:text-white"
+      className="bg-[#f4f7f2] lg:px-14 px-4   dark:bg-[#0a1424] dark:text-white"
       id="testimonials"
     >
       <div className="text-center">
@@ -37,9 +37,10 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <div className="py-10 px-30 m-[auto]  ">
+      <div className="py-10 px-36 m-[auto]  ">
         <Swiper
           loop={true}
+          Pagination={true}
           grabCursor={true}
           autoplay={{
             delay: 3000,
@@ -60,12 +61,12 @@ const Testimonials = () => {
               spaceBetween: 50,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 50,
             },
           }}
-          modules={[Autoplay, Navigation]}
-          className="mySwiper "
+          modules={[Autoplay, Navigation, Pagination]}
+          className="mySwiper  "
         >
           {testData.map((testData) => (
             <SwiperSlide key={testData._id}>
@@ -73,33 +74,33 @@ const Testimonials = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+      </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-20">
-          <Image
-            className="rounded-lg"
-            src={banner1}
-            alt="banner img"
-            width={400}
-            height={300}
-          />
-          <div className="flex gap-5 flex-col lg:flex-row">
-            <div className="flex flex-col items-center gap-5 h-full ">
-              <Image
-                className="rounded-lg"
-                src={banner2}
-                alt="banner img"
-                width={400}
-                height={300}
-              />
-            </div>
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-20">
+        <Image
+          className="rounded-lg"
+          src={banner1}
+          alt="banner img"
+          width={400}
+          height={300}
+        />
+        <div className="flex gap-5 flex-col lg:flex-row">
+          <div className="flex flex-col items-center gap-5 h-full ">
             <Image
               className="rounded-lg"
-              src={banner4}
+              src={banner2}
               alt="banner img"
               width={400}
               height={300}
             />
           </div>
+          <Image
+            className="rounded-lg"
+            src={banner4}
+            alt="banner img"
+            width={400}
+            height={300}
+          />
         </div>
       </div>
     </div>

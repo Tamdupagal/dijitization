@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import Testimonial from "./Product";
-
+import { banner } from "../../public/assets/dash4.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
+import Image from "next/image";
 
 const Testimonials = () => {
   const [testimonials, setTestimonials] = useState([]);
@@ -23,10 +24,10 @@ const Testimonials = () => {
 
   return (
     <div
-      className="bg-[#fafafa] lg:px-14 px-4 pt-5 dark:bg-[#0a1424] dark:text-white"
+      className="bg-[#f4f7f2] lg:px-14 px-4 pt-5 dark:bg-[#0a1424] dark:text-white"
       id="testimonials"
     >
-      <div className="text-center">
+      <div className="text-center py-10">
         <h2 className="text-3xl lg:text-4xl lg:leading-[68px] font-semibold pt-8">
           Product <span className="text-[#3742fa]"> Specification</span>
         </h2>
@@ -37,46 +38,24 @@ const Testimonials = () => {
           businesses to large enterprises,
         </p>
       </div>
-
-      <div className="py-10 px-30 m-[auto]  ">
-        <Swiper
-          loop={true}
-          grabCursor={true}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: true,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          slidesPerView={2}
-          slidesPerGroup={1}
-          breakpoints={{
-            299: {
-              slidesPerView: 1,
-            },
-
-            640: {
-              slidesPerView: 1,
-            },
-            768: {
-              slidesPerView: 3,
-              spaceBetween: 50,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 50,
-            },
-          }}
-          modules={[Autoplay, Navigation, Pagination]}
-          className="mySwiper "
-        >
+      <div className="flex flex-col lg:flex-row gap-5">
+        <div>
+          <Image
+            src={"/assets/dash4.png"}
+            alt="Dash"
+            width={1}
+            height={1}
+            layout="responsive"
+            className="m-[auto] rounded-lg"
+          />
+        </div>
+        <div className=" px-2  ">
           {testimonials.map((testimonial) => (
-            <SwiperSlide key={testimonial._id}>
+            <div key={testimonial._id}>
               <Testimonial testimonial={testimonial} />
-            </SwiperSlide>
+            </div>
           ))}
-        </Swiper>
+        </div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import plus from "/public/assets/plus.png";
 const Legacy = () => {
   return (
     <div
-      className="bg-[#fafafa] relative dark:bg-[#0a1424] text-white pt-20"
+      className="bg-[#f4f7f2] relative dark:bg-[#0a1424] text-white pt-20"
       id="about"
     >
       <div className="bg-gradient-to-r from-[#737bfc] via-[#5f68fb] to-[#3742fa] dark:bg-gradient-to-r  flex flex-col  lg:flex-row items-center justify-center gap-5  lg:px-36 px-6">

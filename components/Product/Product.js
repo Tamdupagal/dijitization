@@ -3,13 +3,16 @@ import React from "react";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = ({ testimonial }) => {
-  const { name, review, img, ratings } = testimonial;
+  const { _id, name, review, img, ratings } = testimonial;
   return (
-    <div className="dark:bg-[#202e45] bg-white  p-8 rounded-lg shadow-lg text-center my-5 h-36">
-      <div className="flex flex-col items-center ">
-        <h3 className="text-xl font-semibold mt-1">{name}</h3>
+    <div className="py-2">
+      <div className="flex flex-col">
+        <h3 className="text-lg font-semibold">
+          <span>{_id}. </span>
+          {name}
+        </h3>
       </div>
-      <p className="text-[#666A7B] mt-3 text-base font-semibold">{review}</p>
+      <p className=" mt-1 px-5 text-md ">{review}</p>
     </div>
   );
 };

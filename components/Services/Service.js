@@ -5,10 +5,10 @@ import { TbPremiumRights } from "react-icons/tb";
 const Service = ({ service }) => {
   const { name, desc, icon } = service;
   return (
-    <div className="dark:border-[#202e45]  border-white border-2 price_card p-7 rounded-lg shadow-lg h-[298px]">
+    <div className="dark:border-[#202e45]  border-white border-2 price_cards p-7 rounded-lg shadow-lg h-[298px]">
       <div className="flex items-center gap-4">
-        <p>{ icon}</p>
-        <h3 className="text-2xl font-semibold dark:white">{name}</h3>
+        <p className="text-[30px] dark:text-white">{icon}</p>
+        <h3 className="text-xl font-semibold dark:white">{name}</h3>
       </div>
 
       <p className=" mt-7">{desc}</p>

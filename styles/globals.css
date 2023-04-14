@@ -112,6 +112,11 @@ a {
     color-scheme: dark;
   }
 }
+.price_cardd:hover{
+  transform: scale(0.99);
+  cursor:pointer;
+
+}
 
 .price_card {
   position: relative;
@@ -119,6 +124,10 @@ a {
   overflow: hidden;
   z-index: 1;
   transition: all 0.5s linear;
+}
+.price_cards:hover {
+  transform: scale(1.05);
+  cursor:pointer;
 }
 
 .price_card::before {
