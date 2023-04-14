@@ -11,8 +11,11 @@
   "dependencies": {
     "@next/font": "13.1.6",
     "aos": "^2.3.4",
+    "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.3",
     "next": "13.1.6",
     "next-themes": "^0.2.1",
+    "preline": "^1.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",

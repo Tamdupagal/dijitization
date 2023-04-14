@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="flex flex-col pt-10 items-center justify-between">
         <h2 className="text-4xl lg:text-6xl leading-[50px] lg:leading-[80px] font-bold pt-8">
           Dijitzation
-          <span className="text-logotext">
+          <span className="text-logotext" data-aos="fade-right">
             <br />
             The Ultimate Digital Adoption Platform
           </span>
@@ -33,7 +33,7 @@ const Banner = () => {
         <div className="">
           <button className=" price_cardd py-5 px-8 font-bold bg-[#2b2e4a]  text-white rounded-full mt-12 lg:mb-0 mb-10 hover:bg-logotext hover:text-white ">
             <Link href="/#demo" className="flex flex-row content-center">
-              Get Started <BsArrowRight className="text-2xl pl-1"/>
+              Get Started <BsArrowRight className="text-2xl pl-1" />
             </Link>
           </button>
         </div>

@@ -39,7 +39,7 @@ const Testimonials = () => {
         </p>
       </div>
       <div className="flex flex-col lg:flex-row gap-10">
-        <div>
+        <div data-aos="fade-right">
           <Image
             src={"/assets/dash4.png"}
             alt="Dash"

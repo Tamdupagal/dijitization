@@ -23,13 +23,15 @@ const Navbar = () => {
           Home
         </Link>
       </li>
+      
+
       <li>
         <Link
-          href="/#about"
           onClick={() => setOpen(!open)}
+          href="/#services"
           className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
-          About us
+          Product
         </Link>
       </li>
       <li>
@@ -38,7 +40,16 @@ const Navbar = () => {
           href="/#services"
           className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
         >
-          Features
+          Why Dijitization
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/#about"
+          onClick={() => setOpen(!open)}
+          className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[14px]"
+        >
+          About us
         </Link>
       </li>
       <li>
@@ -76,7 +87,7 @@ const Navbar = () => {
           </button>
           <button
             href="https://dashboard.dijitization.com/"
-            className=" text-[#3742fa] text-[14px] px-6 py-2 border-[#3742fa] border-2 font-semibold rounded-full lg:block hidden hover:bg-[#3742fa] hover:text-white"
+            className=" text-[#3742fa] text-[14px] px-6 py-2 border-[#3742fa] border-2 font-semibold rounded-full lg:block hidden hover:bg-[#3742fa] hover:text-black"
           >
             Contact Sales
           </button>
@@ -97,7 +108,7 @@ const Navbar = () => {
             <li>
               <button
                 href="/"
-                className="bg-logotext w-full px-4 py-2 rounded-full text-white hover:bg-[#666A7B] hover:text-white"
+                className="bg-logotext w-full px-4 py-2 rounded-full text-white hover:bg-[#666A7B] hover:text-black"
               >
                 Contact Sales
               </button>
