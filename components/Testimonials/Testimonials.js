@@ -37,7 +37,7 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <div className="py-10 px-36 m-[auto]  ">
+      <div className="py-10  m-[auto]  ">
         <Swiper
           loop={true}
           Pagination={true}
