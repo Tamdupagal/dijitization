@@ -5,7 +5,7 @@ import { GoPrimitiveDot } from "react-icons/go";
 const MonthlyPlan = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10 capitalize">
-      <div className="card-border  bg-[#f4f7f2] dark:bg-[#0a1424] border-2 border-white dark:border-[#202e45]  p-8 shadow-lg rounded-lg text-left text-fontclr">
+      <div className="card-border  bg-[#f5f5f7] dark:bg-[#0a1424] border-2 border-white dark:border-[#202e45]  p-8 shadow-lg rounded-lg text-left text-fontclr">
         <h2 className="text-2xl   ">Start Up Plan</h2>
         <h3 className="text-5xl font-bold my-2">$24</h3>
 
@@ -250,7 +250,7 @@ const MonthlyPlan = () => {
         </button>
       </div>
 
-      <div className="card-border  p-8 bg-[#f4f7f2] dark:bg-[#0a1424] shadow-lg border-2 border-white dark:border-[#202e45]  rounded-lg text-left text-fontclr">
+      <div className="card-border  p-8 bg-[#f5f5f7] dark:bg-[#0a1424] shadow-lg border-2 border-white dark:border-[#202e45]  rounded-lg text-left text-fontclr">
         <h2 className="text-2xl  ">Enterprise</h2>
         <h3 className="text-5xl text-tomato font-bold my-2">$89</h3>
 

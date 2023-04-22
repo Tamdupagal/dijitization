@@ -5,7 +5,7 @@ import { dataT } from "@/public/services";
 const Services = () => {
   return (
     <div
-      className=" bg-[#f4f7f2] px-6 lg:px-20 py-5 dark:bg-[#0a1424] dark:text-white"
+      className=" bg-[#f5f5f7] px-6 lg:px-20 py-5 dark:bg-[#0a1424] dark:text-white"
       id="services"
     >
       <div className="text-center">

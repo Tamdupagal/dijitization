@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 const thankyou = () => {
   return (
-    <div>
+    <div className=" text-[#2b2e4a] bg-[#fafafa]">
       <Navbar />
       <ThankYouPage />
       <Footer />

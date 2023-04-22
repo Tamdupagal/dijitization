@@ -5,7 +5,7 @@ import React from "react";
 
 const about = () => {
   return (
-    <div>
+    <div className=" text-[#2b2e4a] bg-[#fafafa]">
       <Navbar />
       <Legacy />
       <Footer />

@@ -4,21 +4,23 @@ import Banner from "./Banner";
 import Footer from "./Footer";
 import Legacy from "./About";
 import Navbar from "./Navbar";
-import Plans from "./Plans/Plans";
+// import Plans from "./Plans/Plans";
 import Services from "./Services/Services";
 import Testimonials from "./Testimonials/Testimonials";
 import Trust from "./Trust";
 import Products from "./Product/Products";
+import DigitalAdoption from "./DigitalAdoption";
 
 const Layouts = () => {
   return (
     <div className=" text-[#2b2e4a] bg-[#fafafa]">
       <Navbar />
       <Banner />
-          <Testimonials />
+      <DigitalAdoption/>
+      <Testimonials />
       <Services />
-      <Plans />
-      <Legacy />
+      {/* <Plans /> */}
+      {/* <Legacy /> */}
       <Products />
       <Trust />
       <Footer />

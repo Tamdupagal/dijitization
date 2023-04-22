@@ -15,7 +15,7 @@ const Banner = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="bg-[#f4f7f2] text-center pt-20 px-6 lg:px-20 pb-10 dark:bg-[#0a1424] dark:text-white">
+    <div className="bg-[#f5f5f7] text-center pt-20 px-6 lg:px-20 pb-10 dark:bg-[#0a1424] dark:text-white">
       <div className="flex flex-col pt-10 items-center justify-between">
         <h2 className="text-4xl lg:text-6xl leading-[50px] lg:leading-[80px] font-bold pt-8">
           Dijitzation

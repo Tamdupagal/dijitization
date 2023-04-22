@@ -2,6 +2,7 @@ import { BsBarChartSteps, BsGearWideConnected } from "react-icons/bs";
 import { CgPathIntersect } from "react-icons/cg";
 import { BiBookContent } from "react-icons/bi";
 import { FaUserClock, FaHandshake } from "react-icons/fa";
+import { HiOutlineLightBulb } from "react-icons/hi";
 // import { BsFillClipboardDataFill } from "react-icons/bs";
 
 export const dataT = [
@@ -15,7 +16,7 @@ export const dataT = [
     _id: 2,
     name: "Tooltips & Hints:",
     desc: "Tooltips and hints make it easy for users to understand how to perform specific tasks. They can be customized to match the look and feel of the application.",
-    icon: <CgPathIntersect />,
+    icon: <HiOutlineLightBulb />,
   },
   // {
   //   _id: 3,

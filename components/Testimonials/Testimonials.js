@@ -22,7 +22,7 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 const Testimonials = () => {
   return (
     <div
-      className="bg-[#f4f7f2] lg:px-14 px-4   dark:bg-[#0a1424] dark:text-white"
+      className="bg-[#f5f5f7] lg:px-32 px-4   dark:bg-[#0a1424] dark:text-white"
       id="testimonials"
     >
       <div className="text-center">
@@ -61,7 +61,7 @@ const Testimonials = () => {
               spaceBetween: 50,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 50,
             },
           }}
@@ -76,7 +76,7 @@ const Testimonials = () => {
         </Swiper>
       </div>
 
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-20">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full pb-10">
         <Image
           className="rounded-lg"
           src={banner1}
