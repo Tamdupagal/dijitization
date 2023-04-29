@@ -1,50 +1,55 @@
-import Image from "next/image";
-import React from "react";
-import banner1 from "/public/assets/dash3.png";
-import banner2 from "/public/assets/dash2.png";
-// import banner3 from "/public/assets/dash3.png";
-import logo from "/public/assets/logogo.png";
-import logo2 from "/public/assets/dfdf.png";
-import { useTheme } from "next-themes";
-import { BsArrowRight } from "react-icons/bs";
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-// <Image src={banner4} alt="banner img" width={400} height={300} />
-import Link from "next/link";
+const navigation = [
+  { name: "Product", href: "#" },
+  { name: "Features", href: "#" },
+  { name: "Marketplace", href: "#" },
+  { name: "Company", href: "#" },
+];
 
-const Banner = () => {
-  const { theme, setTheme } = useTheme();
+export default function Example() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-[#f5f5f7] text-center pt-20 px-6 lg:px-20 pb-10 dark:bg-[#0a1424] dark:text-white">
-      <div className="flex flex-col pt-10 items-center justify-between">
-        <h2 className="text-4xl lg:text-6xl leading-[50px] lg:leading-[80px] font-bold pt-8">
-          Dijitzation
-          <span className="text-logotext" data-aos="fade-right">
-            <br />
-            The Ultimate Digital Adoption Platform
-          </span>
-        </h2>
-        <p className="mt-8 text-lg max-w-2xl font-700 opacity-90 ">
-          Dijitzation is a cutting-edge platform designed to help anyone
-          streamline and optimize their digital processes.
-          {/*  <br /> Whether you're an SMB or a large enterprise,
-          <br /> Dijitzation can help you achieve your digital goals. */}
-        </p>
-        <div className="">
-          <button className=" price_cardd py-5 px-8 font-bold bg-[#2b2e4a]  text-white rounded-full mt-12 lg:mb-0 mb-10 hover:bg-logotext hover:text-white ">
-            <Link href="/#demo" className="flex flex-row content-center">
-              Get Started <BsArrowRight className="text-2xl pl-1" />
-            </Link>
-          </button>
+    <div className="bg-[#f5f5f7] dark:bg-[#0a1424]">
+      <div className="relative isolate px-6 lg:pt-1 pt-14 lg:px-8">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 dark:text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              Announcing our next round of funding.{" "}
+              <a href="#" className="font-semibold text-indigo-600">
+                <span className="absolute inset-0" aria-hidden="true" />
+                Read more <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </div>
+          <div className="text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
+              The Ultimate Adoption Platform
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-white">
+              Dijitzation is a cutting-edge platform designed to help anyone
+              streamline and optimize their digital processes.
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Get started
+              </a>
+              <a
+                href="#"
+                className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
+              >
+                Learn more <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
         </div>
-        {theme === "light" ? (
-          <Image src={logo2} alt="dsffsdf" />
-        ) : (
-          <Image src={logo} alt="dsffsdf" />
-        )}
       </div>
     </div>
   );
-};
-
-export default Banner;
+}

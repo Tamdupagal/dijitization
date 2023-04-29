@@ -10,19 +10,24 @@ import Testimonials from "./Testimonials/Testimonials";
 import Trust from "./Trust";
 import Products from "./Product/Products";
 import DigitalAdoption from "./DigitalAdoption";
+import Tabs from "./Tabs";
+import Profes from "./Testimonials/Profes";
 
 const Layouts = () => {
   return (
     <div className=" text-[#2b2e4a] bg-[#fafafa]">
       <Navbar />
       <Banner />
-      <DigitalAdoption/>
       <Testimonials />
+      {/* <Profes /> */}
+      <DigitalAdoption />
       <Services />
+      {/* <Tabs /> */}
       {/* <Plans /> */}
       {/* <Legacy /> */}
       <Products />
       <Trust />
+
       <Footer />
     </div>
   );

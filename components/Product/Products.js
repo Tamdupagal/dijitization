@@ -1,16 +1,10 @@
 import React, { useEffect, useState, useRef } from "react";
 import Testimonial from "./Product";
 import { banner } from "../../public/assets/dash4.png";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css/pagination";
-
 import "swiper/css";
 import "swiper/css/navigation";
-
-// import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
 import Image from "next/image";
 

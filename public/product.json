@@ -47,19 +47,5 @@
     "review": "Offer step-by-step guidance and train users in real time",
     "ratings": 5,
     "img": "/assets/user1.png"
-  },
-  {
-    "_id": 8,
-    "name": "On demand Support",
-    "review": "Offer contextual support at the moment of need",
-    "ratings": 5,
-    "img": "/assets/user1.png"
-  },
-  {
-    "_id": 9,
-    "name": "In-app messaging",
-    "review": "Make announcements, conduct surveys and communicate change",
-    "ratings": 5,
-    "img": "/assets/user1.png"
   }
 ]

@@ -36,15 +36,15 @@ const Navbar = () => {
             className="inline-flex items-center  gap-x-1 text-[16px] font-semibold leading-6 text-gray-900"
             aria-expanded="false"
           >
-            <span> Product</span>
-            <RiArrowDownSLine className="text-xl" />
+            <span className="dark:text-[#fff]"> Product</span>
+            <RiArrowDownSLine className="text-xl dark:text-[#fff]" />
           </button>
 
           {start && (
             <div className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-              <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+              <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white dark:bg-[#232c3a] dark:text-white  text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
-                  <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+                  <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-[#0a1424] dark:text-white">
                     <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                       <svg
                         className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
@@ -67,16 +67,16 @@ const Navbar = () => {
                       </svg>
                     </div>
                     <div>
-                      <a href="#" className="font-semibold text-gray-900">
+                      <a href="#" className="font-semibold dark:text-white">
                         Analytics
                         <span className="absolute inset-0"></span>
                       </a>
-                      <p className="mt-1 text-gray-600">
+                      <p className="mt-1 dark:text-white">
                         Get a better understanding of your traffic
                       </p>
                     </div>
                   </div>
-                  <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+                  <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-[#0a1424] dark:text-white">
                     <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                       <svg
                         className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
@@ -94,16 +94,16 @@ const Navbar = () => {
                       </svg>
                     </div>
                     <div>
-                      <a href="#" className="font-semibold text-gray-900">
+                      <a href="#" className="font-semibold dark:text-white">
                         Engagement
                         <span className="absolute inset-0"></span>
                       </a>
-                      <p className="mt-1 text-gray-600">
+                      <p className="mt-1 dark:text-white">
                         Speak directly to your customers
                       </p>
                     </div>
                   </div>
-                  <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+                  <div className="group relative flex gap-x-6 rounded-lg p-4 dark:hover:bg-[#0a1424] dark:text-white hover:bg-gray-50">
                     <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                       <svg
                         className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
@@ -121,17 +121,16 @@ const Navbar = () => {
                       </svg>
                     </div>
                     <div>
-                      <a href="#" className="font-semibold text-gray-900">
+                      <a href="#" className="font-semibold dark:text-white">
                         Security
                         <span className="absolute inset-0"></span>
                       </a>
-                      <p className="mt-1 text-gray-600">
+                      <p className="mt-1 dark:text-white">
                         Your customers&#039; data will be safe and secure
                       </p>
                     </div>
                   </div>
-               
-                  <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+                  <div className="group relative flex gap-x-6 rounded-lg p-4 dark:hover:bg-[#0a1424] dark:text-white hover:bg-gray-50">
                     <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                       <svg
                         className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
@@ -149,11 +148,11 @@ const Navbar = () => {
                       </svg>
                     </div>
                     <div>
-                      <a href="#" className="font-semibold text-gray-900">
+                      <a href="#" className="font-semibold dark:text-white">
                         Automations
                         <span className="absolute inset-0"></span>
                       </a>
-                      <p className="mt-1 text-gray-600">
+                      <p className="mt-1 dark:text-white">
                         Build strategic funnels that will convert
                       </p>
                     </div>
@@ -235,7 +234,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="bg-[#f5f5f7]  dark:bg-[#0a1424]  dark:text-white flex items-center z-[99] justify-between py-4 lg:px-20 px-4 fixed w-full"
+        className="bg-[#f5f5f7] backdrop-filter backdrop-blur-lg bg-opacity-70  dark:bg-[#0a1424]  dark:text-white flex items-center z-[99] justify-between py-4 lg:px-20 px-4 fixed w-full"
         id="home"
       >
         <Link
@@ -257,12 +256,12 @@ const Navbar = () => {
           >
             {theme === "light" ? <BsFillMoonFill /> : <BsFillSunFill />}
           </button>
-          <button
-            href="https://dashboard.dijitization.com/"
+          <Link
+            href="/contact-sales"
             className=" text-[#3742fa] text-[14px] px-6 py-2 border-[#3742fa] border-2 font-semibold rounded-full lg:block hidden hover:bg-[#3742fa] hover:text-black"
           >
             Contact Sales
-          </button>
+          </Link>
           <button onClick={() => setOpen(!open)} className="block lg:hidden ">
             {!open ? (
               <HiMenuAlt3 className="text-3xl" />
@@ -278,12 +277,12 @@ const Navbar = () => {
           <ul className=" lg:hidden flex flex-col  items-center gap-5 text-center ">
             {menuItems}
             <li>
-              <button
-                href="/"
+              <Link
+                href="/contact-sales"
                 className="bg-logotext w-full px-4 py-2 rounded-full text-white hover:bg-[#666A7B] hover:text-black"
               >
                 Contact Sales
-              </button>
+              </Link>
             </li>
           </ul>
         </div>
