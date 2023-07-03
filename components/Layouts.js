@@ -10,8 +10,8 @@ import Testimonials from "./Testimonials/Testimonials";
 import Trust from "./Trust";
 import Products from "./Product/Products";
 import DigitalAdoption from "./DigitalAdoption";
-import Tabs from "./Tabs";
-import Profes from "./Testimonials/Profes";
+// import Tabs from "./Tabs";
+// import Profes from "./Testimonials/Profes";
 
 const Layouts = () => {
   return (

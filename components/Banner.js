@@ -14,11 +14,12 @@ export default function Example() {
 
   return (
     <div className="bg-[#f5f5f7] dark:bg-[#0a1424]">
-      <div className="relative isolate px-6 lg:pt-1 pt-14 lg:px-8">
+      <div className="relative isolate px-6 lg:pt-1 pt-10 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 dark:text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{" "}
+              Announcing Our Product Launch on ChatGPT.{" "}
               <a href="#" className="font-semibold text-indigo-600">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
@@ -36,7 +37,7 @@ export default function Example() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-[#3742fa] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#3742ff] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started
               </a>
@@ -47,9 +48,12 @@ export default function Example() {
                 Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
+            
           </div>
+          
         </div>
       </div>
+      
     </div>
   );
 }

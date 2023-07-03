@@ -96,14 +96,14 @@ const Footer = () => {
               Social Media
             </p>
             <div className="flex items-center  gap-3 text-white">
-              <div className="text-2xl  bg-blue-500 hover:bg-tomato  icon-bg w-10 h-10 rounded-full flex items-center justify-center mb-3 ">
+              <div className="text-2xl  bg-blue-500 hover:bg-tomato  icon-bg w-10 h-10 rounded-lg flex items-center justify-center mb-3 ">
                 <span>
                   <Link href={"#"}>
                     <FaFacebookF />
                   </Link>{" "}
                 </span>
               </div>
-              <div className="text-2xl  bg-[#1DA1F2] hover:bg-tomato   icon-bg w-10 h-10 rounded-full flex items-center justify-center mb-3 ">
+              <div className="text-2xl  bg-[#1DA1F2] hover:bg-tomato   icon-bg w-10 h-10 rounded-lg flex items-center justify-center mb-3 ">
                 <span>
                   <Link href={"#"}>
                     {" "}
@@ -111,7 +111,7 @@ const Footer = () => {
                   </Link>{" "}
                 </span>
               </div>
-              <div className="text-2xl  bg-[#C13584] hover:bg-tomato   icon-bg w-10 h-10 rounded-full flex items-center justify-center mb-3 ">
+              <div className="text-2xl  bg-[#C13584] hover:bg-tomato   icon-bg w-10 h-10 rounded-lg flex items-center justify-center mb-3 ">
                 <span>
                   <Link href={"#"}>
                     {" "}
@@ -119,7 +119,7 @@ const Footer = () => {
                   </Link>
                 </span>
               </div>
-              <div className="text-2xl  bg-[#007BB5] hover:bg-tomato   icon-bg w-10 h-10 rounded-full flex items-center justify-center mb-3 ">
+              <div className="text-2xl  bg-[#007BB5] hover:bg-tomato   icon-bg w-10 h-10 rounded-lg flex items-center justify-center mb-3 ">
                 <span>
                   <Link href={"#"}>
                     {" "}
@@ -127,7 +127,7 @@ const Footer = () => {
                   </Link>{" "}
                 </span>
               </div>
-              <div className="text-2xl bg-[#007BB5] hover:bg-tomato  icon-bg w-10 h-10 rounded-full flex items-center justify-center mb-3 ">
+              <div className="text-2xl bg-[#007BB5] hover:bg-tomato  icon-bg w-10 h-10 rounded-lg flex items-center justify-center mb-3 ">
                 <span>
                   <Link href={"#"}>
                     <FaLinkedinIn />

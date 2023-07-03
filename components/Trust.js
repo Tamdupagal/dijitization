@@ -24,7 +24,7 @@ const Trust = () => {
               the digital transformation partner of
               <br /> choice for organizations everywhere!
             </h2>
-            <button className=" py-4 px-10 bg-white text-logotext rounded-full mt-12 font-bold  hover:bg-[#666A7B] hover:text-white ">
+            <button className=" py-4 px-10 bg-white text-logotext rounded-lg mt-12 font-bold  hover:bg-[#666A7B] hover:text-white ">
               Start Your Free Trail Today!
             </button>
           </div>

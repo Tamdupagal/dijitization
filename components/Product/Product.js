@@ -7,7 +7,7 @@ const Testimonial = ({ testimonial }) => {
   return (
     <div className="py-2">
       <div className="flex flex-col">
-        <h3 className="text-lg font-semibold">
+        <h3 className="text-lg font-semibold text-[#3742fa]">
           <span>{_id}. </span>
           {name}
         </h3>

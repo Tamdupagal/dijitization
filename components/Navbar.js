@@ -42,7 +42,7 @@ const Navbar = () => {
 
           {start && (
             <div className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-              <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white dark:bg-[#232c3a] dark:text-white  text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+              <div className="w-screen max-w-md flex-auto overflow-hidden rounded-lg bg-white dark:bg-[#0a1424] dark:text-white  text-sm leading-6 shadow-2xl ring-1 ring-gray-900/5">
                 <div className="p-4">
                   <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-[#0a1424] dark:text-white">
                     <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
@@ -229,6 +229,15 @@ const Navbar = () => {
           Pricing
         </Link>
       </li>
+      <li>
+        <Link
+          onClick={() => setOpen(!open)}
+          href="/pricing"
+          className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[16px]"
+        >
+          Resources
+        </Link>
+      </li>
     </>
   );
   return (
@@ -258,7 +267,7 @@ const Navbar = () => {
           </button>
           <Link
             href="/contact-sales"
-            className=" text-[#3742fa] text-[14px] px-6 py-2 border-[#3742fa] border-2 font-semibold rounded-full lg:block hidden hover:bg-[#3742fa] hover:text-black"
+            className=" text-[#3742fa] text-[14px] px-6 py-2 border-[#3742fa] border-2 font-semibold rounded-lg lg:block hidden hover:bg-[#3742fa] hover:text-white"
           >
             Contact Sales
           </Link>
