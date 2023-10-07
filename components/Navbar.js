@@ -232,10 +232,10 @@ const Navbar = () => {
       <li>
         <Link
           onClick={() => setOpen(!open)}
-          href="/pricing"
+          href="/course"
           className="font-semibold px-5  cursor-pointer hover:dark:bg-[#444444] hover:bg-[#ebecff]  py-2 rounded-lg text-[16px]"
         >
-          Resources
+          Course
         </Link>
       </li>
     </>

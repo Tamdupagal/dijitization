@@ -15,7 +15,7 @@ export default function Example() {
   return (
     <div className="bg-[#f5f5f7] dark:bg-[#0a1424]">
       <div className="relative isolate px-6 lg:pt-1 pt-10 lg:px-8">
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-24">
           
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 dark:text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -27,7 +27,7 @@ export default function Example() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
+            <h1 className="lg:text-8xl text-6xl font-bold  text-gray-900 dark:text-white sm:text-6xl">
               The Ultimate Adoption Platform
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-white">
